@@ -1,9 +1,9 @@
 import logo from "./logo.svg";
 import "./App.css";
 
-function App() {
+function Home() {
   return (
-    <div className="App">
+    <div className="Home">
       <h1> test</h1>
     </div>
   );
