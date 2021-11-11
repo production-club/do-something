@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div className="App">
-      <Sidebar isOpen={isOpen} onClick={toggle} />
+      <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <Routes>
         <Route path="/" element={<Home />} />
