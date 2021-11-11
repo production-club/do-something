@@ -3,6 +3,7 @@ import React from "react";
 const Donate = () => {
   return (
     <div className="DonateWrapper">
+      <h3 style={{ marginTop: 20 }}>Donate 💸</h3>
       <div className="iFrameWrapper">
         <iframe
           title="donorbox"
@@ -18,7 +19,7 @@ const Donate = () => {
             maxWidth: 500,
             minWidth: 250,
             maxHeight: "none",
-            marginTop: 200,
+            marginTop: 0,
           }}
         ></iframe>
       </div>
