@@ -5,6 +5,7 @@
   font-family: "Times New Roman", Times, serif;
   max-width: 100vw;
   max-height: 100vh;
+  overflow-x: none;
 }
 
 .HomeWrapper,
@@ -20,3 +21,50 @@
   text-align: center;
   height: 100vh;
 }
+
+.HomeTextWrapper {
+  text-align: left;
+  /* margin-left: 400px; */
+  padding: 10px 10px;
+}
+
+.HomeButtonWrapper {
+  display: flex;
+  width: 50vw;
+  justify-content: space-around;
+  padding: 15px 15px 15px 15px;
+  flex-direction: row;
+  text-decoration: none;
+}
+
+h3,
+h2,
+p {
+  margin-bottom: 30px;
+  color: red;
+}
+
+.DonateButton,
+.VolunteerButton {
+  border: solid 3px red;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 80px;
+  /* margin-right: 10px; */
+}
+.DonateButton {
+  margin-right: 15px;
+}
+.homeLink {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+}
+.DonateButton:hover,
+.VolunteerButton:hover {
+  background-color: black;
+  color: white;
+}
+
+/* media queries */
