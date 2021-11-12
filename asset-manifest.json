@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/do-something/static/css/main.82d1b233.chunk.css",
-    "main.js": "/do-something/static/js/main.46b59df3.chunk.js",
-    "main.js.map": "/do-something/static/js/main.46b59df3.chunk.js.map",
+    "main.css": "/do-something/static/css/main.c369557a.chunk.css",
+    "main.js": "/do-something/static/js/main.2672c38f.chunk.js",
+    "main.js.map": "/do-something/static/js/main.2672c38f.chunk.js.map",
     "runtime-main.js": "/do-something/static/js/runtime-main.dc43e072.js",
     "runtime-main.js.map": "/do-something/static/js/runtime-main.dc43e072.js.map",
     "static/js/2.40cbd3ef.chunk.js": "/do-something/static/js/2.40cbd3ef.chunk.js",
@@ -10,13 +10,14 @@
     "static/js/3.6f948393.chunk.js": "/do-something/static/js/3.6f948393.chunk.js",
     "static/js/3.6f948393.chunk.js.map": "/do-something/static/js/3.6f948393.chunk.js.map",
     "index.html": "/do-something/index.html",
-    "static/css/main.82d1b233.chunk.css.map": "/do-something/static/css/main.82d1b233.chunk.css.map",
-    "static/js/2.40cbd3ef.chunk.js.LICENSE.txt": "/do-something/static/js/2.40cbd3ef.chunk.js.LICENSE.txt"
+    "static/css/main.c369557a.chunk.css.map": "/do-something/static/css/main.c369557a.chunk.css.map",
+    "static/js/2.40cbd3ef.chunk.js.LICENSE.txt": "/do-something/static/js/2.40cbd3ef.chunk.js.LICENSE.txt",
+    "static/media/production-club-logo.35abc643.svg": "/do-something/static/media/production-club-logo.35abc643.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.dc43e072.js",
     "static/js/2.40cbd3ef.chunk.js",
-    "static/css/main.82d1b233.chunk.css",
-    "static/js/main.46b59df3.chunk.js"
+    "static/css/main.c369557a.chunk.css",
+    "static/js/main.2672c38f.chunk.js"
   ]
 }
