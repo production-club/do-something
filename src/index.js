@@ -5,10 +5,12 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { HashRouter } from "react-router-dom";
 import Footer from "./components/Footer";
+import ScrollToTop from "./ScrollToTop";
 
 ReactDOM.render(
   <React.StrictMode>
     <HashRouter>
+      <ScrollToTop />
       <App />
       <Footer />
     </HashRouter>
