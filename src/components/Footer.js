@@ -9,10 +9,11 @@ export default function Footer() {
         <a
           href="https://www.production.club"
           target="_blank"
+          rel="noreferrer"
           className="PCLink"
         >
           {" "}
-          <img src={PCEmblem} />{" "}
+          <img src={PCEmblem} alt="pc logo" />{" "}
         </a>
       </div>
     </div>
