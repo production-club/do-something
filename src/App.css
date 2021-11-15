@@ -28,7 +28,8 @@ body {
 .AboutWrapper,
 .DonateWrapper,
 .ContactWrapper,
-.iFrameWrapper {
+.iFrameWrapper,
+.ThankyouWrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
