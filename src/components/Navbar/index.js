@@ -6,21 +6,11 @@ const Navbar = ({ toggle }) => {
       <Nav>
         <Bars onClick={toggle} />
         <NavMenu>
-          <NavLink to="/" activeStyle>
-            Home
-          </NavLink>
-          <NavLink to="/donate" activeStyle>
-            Donate
-          </NavLink>
-          <NavLink to="/contact" activeStyle>
-            Contact
-          </NavLink>
-          <NavLink to="/about" activeStyle>
-            About
-          </NavLink>
-          <NavLink to="/volunteer" activeStyle>
-            Volunteer
-          </NavLink>
+          <NavLink to="/">Home</NavLink>
+          <NavLink to="/donate">Donate</NavLink>
+          <NavLink to="/contact">Contact</NavLink>
+          <NavLink to="/about">About</NavLink>
+          <NavLink to="/volunteer">Volunteer</NavLink>
         </NavMenu>
       </Nav>
     </>
