@@ -1,4 +1,5 @@
 import React from "react";
+import VolunteerForm from "../components/VolunteerForm";
 
 const Volunteer = () => {
   return (
@@ -8,6 +9,7 @@ const Volunteer = () => {
         nicer toys than you find at a lot of giveaways. With that goal in mind
         we are not asking for toy donations but purely monetary ones.
       </p>
+      <VolunteerForm />
     </div>
   );
 };
