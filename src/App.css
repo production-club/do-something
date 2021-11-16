@@ -7,7 +7,10 @@
   /* max-height: 100vh; */
   overflow-x: none;
 }
-
+a {
+  text-decoration: none;
+  color: black;
+}
 *:before,
 *:after {
   box-sizing: border-box;
@@ -27,7 +30,6 @@ body {
 .VolunteerWrapper,
 .AboutWrapper,
 .DonateWrapper,
-.ContactWrapper,
 .iFrameWrapper,
 .ThankyouWrapper {
   display: flex;
@@ -42,7 +44,27 @@ body {
   /* margin-top: 10vh; */
   overflow-y: auto;
 }
+.ContactWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: calc(100vh - 34px);
+  height: auto;
+  max-width: 100%;
+  min-width: fit-content;
+  /* margin-top: 10vh; */
+  overflow-y: auto;
+}
 
+.ContactWrapperText {
+  text-align: left;
+  margin-left: auto;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
 .iFrameWrapper {
   align-items: center;
   margin-top: 3.2rem;
@@ -120,4 +142,26 @@ p {
 .PCLink {
   width: 25vw;
 }
+
+.MapWrapper {
+  margin-left: auto;
+  margin-right: 5vw;
+  height: 40vh;
+  width: 50vw;
+}
+
 /* media queries */
+@media screen and (max-width: 768px) {
+  .ContactWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .ContactWrapperText {
+    width: 90vw;
+    margin: auto;
+  }
+  .MapWrapper {
+    width: 90vw;
+    margin: auto;
+  }
+} ;
