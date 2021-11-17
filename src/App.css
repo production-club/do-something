@@ -119,23 +119,41 @@ p {
   position: relative;
   bottom: 0;
   background-color: black;
-  justify-content: left;
+  /* justify-content: left; */
   height: 20vh;
   display: flex;
   align-items: center;
 }
+
+.FooterFlex {
+  display: flex;
+  flex-direction: row;
+  max-height: 20vh;
+}
+
 .footerImages {
   height: 100%;
   width: auto;
-  max-width: 100%;
+  max-width: 90%;
   display: flex;
   align-items: center;
   flex-direction: row;
   margin-left: 2em;
 }
 
+.FooterInnerFlex {
+  justify-content: center;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+
+  flex: 1;
+}
+
 .PCLogo {
-  height: 70%;
+  max-height: fit-content;
+  object-fit: scale-down;
+
   margin-right: 2em;
 }
 .PCLink {
@@ -163,4 +181,7 @@ p {
     width: 90vw;
     margin: auto;
   }
-} ;
+  .FooterLinks img {
+    width: 40%;
+  }
+}
