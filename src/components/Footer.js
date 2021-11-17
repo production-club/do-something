@@ -9,7 +9,7 @@ export default function Footer() {
   return (
     <div className="FooterWrapper">
       <div className="FooterFlex">
-        <img src={PCLogo} alt="production club" className="PCLogo" />
+        {/* <img src={PCLogo} alt="production club" className="PCLogo" /> */}
         <div className="FooterInnerFlex">
           <div className="PCLinkDiv">
             <a
