@@ -4,10 +4,13 @@ import VolunteerForm from "../components/VolunteerForm";
 const Volunteer = () => {
   return (
     <div className="VolunteerWrapper">
+      <h2>
+        If you’d like to sign up to volunteer the day of the toy giveaway, sign
+        up here.{" "}
+      </h2>
       <p>
-        The Do Something Toy Drive aims to give underserved children access to
-        nicer toys than you find at a lot of giveaways. With that goal in mind
-        we are not asking for toy donations but purely monetary ones.
+        We’re especially looking for people who are spanish-english and
+        cantonese-english bilingual speakers.{" "}
       </p>
       <VolunteerForm />
     </div>

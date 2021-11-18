@@ -10,7 +10,7 @@ const Navbar = ({ toggle }) => {
           <NavLink to="/donate">Donate</NavLink>
           <NavLink to="/contact">Contact</NavLink>
           <NavLink to="/about">About</NavLink>
-          <NavLink to="/volunteer">Volunteer</NavLink>
+          {/* <NavLink to="/volunteer">Volunteer</NavLink> */}
         </NavMenu>
       </Nav>
     </>
