@@ -23,9 +23,9 @@ const Home = () => {
         <Link to="/donate" className="homeLink">
           <div className="DonateButton">DONATE</div>
         </Link>
-        <Link to="/volunteer" className="homeLink">
+        {/* <Link to="/volunteer" className="homeLink">
           <div className="VolunteerButton">VOLUNTEER</div>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );
