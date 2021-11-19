@@ -1,16 +1,21 @@
 import React from "react";
-import PCLogo from "../logo.png";
-import PCEmblem from "../production-club-logo.svg";
-import LinkedIn from "../images/linkedin.png";
-import Instagram from "../images/instagram.png";
-import Facebook from "../images/facebook.png";
-import Twitter from "../images/twitter.png";
+// import PCLogo from "../logo.png";
+// import PCEmblem from "../production-club-logo.svg";
+// import LinkedIn from "../images/linkedin.png";
+// import Instagram from "../images/instagram.png";
+// import Facebook from "../images/facebook.png";
+// import Twitter from "../images/twitter.png";
 export default function Footer() {
   return (
     <div className="FooterWrapper">
       <div className="FooterFlex">
+        <p>
+          Do Something was founded by members of production.club and is
+          currently sponsored by them.
+        </p>
+        <p>Do Something ©2021 </p>
         {/* <img src={PCLogo} alt="production club" className="PCLogo" /> */}
-        <div className="FooterInnerFlex">
+        {/* <div className="FooterInnerFlex">
           <div className="PCLinkDiv">
             <a
               href="https://www.production.club"
@@ -56,7 +61,7 @@ export default function Footer() {
               <img src={Twitter} alt="twitter icon png" />
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

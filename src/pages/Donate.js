@@ -1,8 +1,16 @@
 import React from "react";
-
+import Helmet from "react-helmet";
 const Donate = () => {
   return (
     <div className="DonateWrapper">
+      <Helmet>
+        <title>Donate</title>
+        <meta name="description" content="Donate Section of Do Something LA" />
+        <meta
+          name="keywords"
+          content="Donate, Do Something, Stripe Payment, donorbox"
+        />
+      </Helmet>
       <div className="iFrameWrapper">
         {/* <h3>Donate 💸</h3> */}
         <iframe
@@ -13,16 +21,22 @@ const Donate = () => {
           seamless="seamless"
           frameborder="0"
           scrolling="yes"
-          height="900px"
+          height="1000px"
           width="100%"
           style={{
-            maxWidth: 500,
+            maxWidth: 900,
             minWidth: 250,
             maxHeight: "100vh",
             minHeight: "100vh",
             marginTop: 0,
           }}
         ></iframe>
+      </div>
+      <div className="DonorContent">
+        <p>
+          Do Something has applied for tax exemption status to the IRS and we
+          are pending a determination.
+        </p>
       </div>
     </div>
   );

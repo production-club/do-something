@@ -1,9 +1,15 @@
 import React from "react";
 import GoogMap from "../components/GoogleMap";
+import Helmet from 'react-helmet'
 
 const Contact = () => {
   return (
     <div className="ContactWrapper">
+      <Helmet>
+        <title>Contact </title>
+        <meta name="description" content="Contact Page of Do Something LA" />
+        <meta name="keywords" content="Contact, Do Something, Email, Address" />
+      </Helmet>
       <div className="ContactWrapperText">
         <a
           href="https://goo.gl/maps/Sxenhoa1Y3WppPAR8"

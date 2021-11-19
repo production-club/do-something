@@ -1,8 +1,14 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 
 const About = () => {
   return (
     <div className="AboutWrapper">
+      <Helmet>
+        <title>About </title>
+        <meta name="description" content="About Section of Do Something LA" />
+        <meta name="keywords" content="About, Do Something" />
+      </Helmet>
       <div className="AboutCopyWrapper">
         <div className="LastYearDiv">
           <h2>Last Year</h2>

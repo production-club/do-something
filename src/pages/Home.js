@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink as Link } from "react-router-dom";
+import Helmet from "react-helmet";
 
 const Home = () => {
   return (
@@ -10,16 +11,25 @@ const Home = () => {
           who need gifts for their children. The toys are for kids aged XX-XX.
         </h3>
         <p>
-          Event Info Date: 12.21.21 Time: 6pm - 9pm Location: 1725 Naud St, Los
-          Angeles, Ca ZIPCODE
+          <h4 style={{ fontWeight: "bold" }}> Event Info </h4>
+          <br /> Date: 12.18.21 <br /> Time: 6pm - 9pm <br />
+          Location: 1725 Naud St, Los Angeles, Ca ZIPCODE
         </p>
         <h3>
-          We are currently looking for donations to buy GOOD toys and for
-          volunteers to work the event. We do not accept toys.
+          We are currently looking for donations to buy GOOD toys We do not
+          accept drop off toys.
         </h3>
         <h2>Do you want Do Something?</h2>
       </div>
       <div className="HomeButtonWrapper">
+        <Helmet>
+          <title>Home</title>
+          <meta name="description" content="Home Section of Do Something LA" />
+          <meta
+            name="keywords"
+            content="Home, Do Something, landing page, donate button"
+          />
+        </Helmet>
         <Link to="/donate" className="homeLink">
           <div className="DonateButton">DONATE</div>
         </Link>
