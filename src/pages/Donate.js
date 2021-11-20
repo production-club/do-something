@@ -20,15 +20,16 @@ const Donate = () => {
           allowpaymentrequest="allowpaymentrequest"
           seamless="seamless"
           frameborder="0"
-          scrolling="yes"
-          height="1000px"
-          width="100%"
+          scrolling="no"
+          // height="300px"
+          // width="100%"
           style={{
             maxWidth: 900,
-            minWidth: 250,
-            maxHeight: "100vh",
-            minHeight: "100vh",
+            minWidth: 320,
+            maxHeight: "none!important",
+            minHeight: 1200,
             marginTop: 0,
+            marginBottom: "100px",
           }}
         ></iframe>
         {/* <iframe

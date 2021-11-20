@@ -1,6 +1,6 @@
 import React from "react";
 import GoogMap from "../components/GoogleMap";
-import Helmet from 'react-helmet'
+import Helmet from "react-helmet";
 
 const Contact = () => {
   return (
@@ -26,9 +26,9 @@ const Contact = () => {
           </h2>
         </a>
 
-        <a href="mailto: info@production.club">
+        <a href="mailto: toys@dosomething.club">
           <h2>
-            Email: <br /> info@production.club
+            Email: <br /> toys@dosomething.club
           </h2>
         </a>
       </div>
