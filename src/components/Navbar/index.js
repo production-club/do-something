@@ -1,17 +1,26 @@
 import React from "react";
 import { Nav, NavLink, Bars, NavMenu } from "./NavbarElements";
+
 const Navbar = ({ toggle }) => {
   return (
     <>
       <div className="navFlex">
-        <h2>do something</h2>
         <Nav>
+          <NavLink to="/">
+            {" "}
+            <h1 className="DSLogo"> Do Something.</h1>
+          </NavLink>
           <Bars onClick={toggle} />
           <NavMenu>
-            <NavLink to="/">Home</NavLink>
-            <NavLink to="/donate">Donate</NavLink>
-            <NavLink to="/contact">Contact</NavLink>
-            <NavLink to="/about">About</NavLink>
+            <NavLink to="/about" className="NavLink">
+              About
+            </NavLink>
+            <NavLink to="/donate" className="NavLink">
+              Donate
+            </NavLink>
+            <NavLink to="/contact" className="NavLink">
+              Contact
+            </NavLink>
             {/* <NavLink to="/volunteer">Volunteer</NavLink> */}
           </NavMenu>
         </Nav>

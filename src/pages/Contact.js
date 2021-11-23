@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div className="ContactWrapper">
       <Helmet>
-        <title>Contact </title>
+        {/* <title>Contact </title> */}
         <meta name="description" content="Contact Page of Do Something LA" />
         <meta name="keywords" content="Contact, Do Something, Email, Address" />
       </Helmet>

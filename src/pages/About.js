@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className="AboutWrapper">
       <Helmet>
-        <title>About </title>
+        {/* <title>About </title> */}
         <meta name="description" content="About Section of Do Something LA" />
         <meta name="keywords" content="About, Do Something" />
       </Helmet>

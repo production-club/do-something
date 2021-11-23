@@ -4,7 +4,7 @@ const Donate = () => {
   return (
     <div className="DonateWrapper">
       <Helmet>
-        <title>Donate</title>
+        {/* <title> Do Something // Donate</title> */}
         <meta name="description" content="Donate Section of Do Something LA" />
         <meta
           name="keywords"

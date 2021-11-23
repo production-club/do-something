@@ -1,3 +1,18 @@
+/* FANTS  */
+
+@font-face {
+  font-family: "Cooper Black Italic";
+  src: url("./fonts/CooperBlackStd-Italic.otf");
+}
+@font-face {
+  font-family: "Cooper Black";
+  src: url("./fonts/CooperBlackStd.otf");
+}
+@font-face {
+  font-family: "Univers";
+  src: url("./fonts/UniversLTStd.otf");
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -15,6 +30,7 @@ a {
 *:after {
   box-sizing: border-box;
 }
+
 html,
 body {
   height: 100%;
@@ -45,6 +61,59 @@ body {
   min-width: fit-content;
   overflow-y: auto;
 }
+
+.HomeWrapper {
+  margin-top: -20px;
+}
+.PresentWrapper {
+  width: 100%;
+  height: 120vh;
+  /* margin-top: -5px; */
+  background-image: url(./images/presentdesktop.png);
+  background-repeat: no-repeat;
+  /* margin-top: -10px; */
+  background-size: contain;
+  /* position: absolute; */
+  /* overflow-y: auto; */
+  /* top: 0; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.PresentTextWrapper {
+  width: 100%;
+  height: auto;
+}
+.PresentTextWrapper h1 {
+  font-family: "Cooper Black";
+  font-size: 5vw;
+}
+.PresentTextWrapper p {
+  font-family: "Univers";
+  font-size: 3vw;
+}
+.HomeTextOuterWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 85vw;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.HomeTextInnerWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  width: 100%;
+  text-align: left;
+}
+
+.HomeTextInnerWrapper p {
+  font-family: "Univers";
+  font-size: 1vw;
+  padding: 10px;
+}
 .ContactWrapper {
   background-color: rgba(255, 243, 225, 255);
 
@@ -54,7 +123,6 @@ body {
   justify-content: center;
   text-align: center;
   min-height: calc(100vh - 34px);
-  max-height: fit-content;
   height: auto;
   max-width: 100%;
   min-width: fit-content;
@@ -73,14 +141,13 @@ body {
   align-items: center;
   margin-top: 3.2rem;
 }
-.HomeTextWrapper {
-  text-align: left;
-  padding: 30px 30px;
-  min-width: fit-content;
+.NavLink {
+  font-family: "Univers";
 }
-
 .HomeButtonWrapper {
   display: flex;
+  position: static;
+  float: left;
   width: 90vw;
   justify-content: space-evenly;
   min-width: fit-content;
@@ -102,23 +169,30 @@ p {
   margin-top: 2px;
   margin-bottom: 20px;
 }
-
-.DonateButton,
-.VolunteerButton {
-  border: 4px solid black;
-  background-color: #ac80f6;
+.DonateTextWrapper {
+  margin-bottom: 5vh;
+}
+.DonateTextWrapper p {
+  font-family: "Univers";
+  font-size: 1.5vw;
+}
+.DonateTextWrapper h1 {
+  font-family: "Cooper Black";
+  font-size: 3vw;
+}
+.DonateButton {
+  border: 2px solid black;
+  font-family: "Univers";
+  font-size: 2vw;
   color: black;
   width: 30vw;
   min-width: 50%;
-  border-radius: 1.2em 20em 30em 40em;
   align-items: center;
   justify-content: center;
   padding: 2rem;
-  margin-bottom: 10px;
+  margin-bottom: 10vh;
 }
-.DonateButton {
-  margin-right: 15px;
-}
+
 .homeLink {
   text-decoration: none;
   color: black;
@@ -126,10 +200,11 @@ p {
 }
 .DonateButton:hover,
 .VolunteerButton:hover {
-  background-color: black;
-  color: white;
+  background-color: rgba(33, 174, 149, 255);
+  color: black;
 }
 
+/* FOOOOOOTTER  */
 .FooterWrapper {
   width: 100%;
   position: relative;
@@ -170,31 +245,19 @@ p {
   flex: 1;
 }
 
-.PCLogo {
-  max-height: fit-content;
-  object-fit: scale-down;
-
-  margin-right: 2em;
-}
-.PCLink {
-  width: 25vw;
-}
-
 .MapWrapper {
   margin-left: auto;
   margin-right: 5vw;
   height: 40vh;
   width: 50vw;
 }
-.navFlex {
-  text-align: center;
-  position: sticky;
-  top: 0;
-  background-color: rgba(255, 243, 225, 255);
-  height: 10vh;
+
+.PresentDesktop {
+  width: 100%;
 }
-.navFlex h2 {
-  margin-top: 20px;
+
+.DSLogo {
+  font-family: "Cooper Black";
 }
 /* media queries */
 @media screen and (max-width: 768px) {
@@ -219,5 +282,8 @@ p {
   .DonateButton {
     width: 90vw;
     /* border-radius: 1.2em 50em 40em; */
+  }
+  .DSLogo {
+    display: none;
   }
 }
