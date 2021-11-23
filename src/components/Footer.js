@@ -10,58 +10,10 @@ export default function Footer() {
     <div className="FooterWrapper">
       <div className="FooterFlex">
         <p>
-          Do Something was founded by members of production.club and is
-          currently sponsored by them.
+          Do Something was founded by members of <br />
+          production.club and is currently sponsored by them.
         </p>
-        <p>Do Something ©2021 </p>
-        {/* <img src={PCLogo} alt="production club" className="PCLogo" /> */}
-        {/* <div className="FooterInnerFlex">
-          <div className="PCLinkDiv">
-            <a
-              href="https://www.production.club"
-              target="_blank"
-              rel="noreferrer"
-              className="PCLink"
-            >
-              {" "}
-              <img src={PCEmblem} alt="pc logo" />{" "}
-            </a>
-          </div>
-          <div className="SMLinkDiv">
-            <a
-              href="https://www.linkedin.com/company/productionclub/"
-              target="blank"
-              rel="noreferrer"
-            >
-              {" "}
-              <img src={LinkedIn} alt="linkedin logo" />
-            </a>
-            <a
-              href="https://www.instagram.com/productionclub/"
-              target="blank"
-              rel="noreferrer"
-            >
-              {" "}
-              <img src={Instagram} alt="instagram logo png" />
-            </a>
-            <a
-              href="https://www.facebook.com/ProductionClub/"
-              target="blank"
-              rel="noreferrer"
-            >
-              {" "}
-              <img src={Facebook} alt="facebook logo png" />
-            </a>
-            <a
-              href="https://twitter.com/productionclub/"
-              target="blank"
-              rel="noreferrer"
-            >
-              {" "}
-              <img src={Twitter} alt="twitter icon png" />
-            </a>
-          </div>
-        </div> */}
+        <p>© Do Something 2021 </p>
       </div>
     </div>
   );

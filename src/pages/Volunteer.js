@@ -1,5 +1,4 @@
 import React from "react";
-import VolunteerForm from "../components/VolunteerForm";
 
 const Volunteer = () => {
   return (
@@ -12,7 +11,6 @@ const Volunteer = () => {
         We’re especially looking for people who are spanish-english and
         cantonese-english bilingual speakers.{" "}
       </p>
-      <VolunteerForm />
     </div>
   );
 };

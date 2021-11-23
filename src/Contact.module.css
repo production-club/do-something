@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "Cooper Black Italic";
+  src: url("./fonts/CooperBlackStd-Italic.otf");
+}
+@font-face {
+  font-family: "Cooper Black";
+  src: url("./fonts/CooperBlackStd.otf");
+}
+@font-face {
+  font-family: "Univers";
+  src: url("./fonts/UniversLTStd.otf");
+}
+
+.ContactWrapper {
+  display: block;
+  min-height: calc(100vh - 34px);
+  height: auto;
+  max-width: 100%;
+  min-width: fit-content;
+  /* margin-top: 10vh; */
+  overflow-y: auto;
+}
+.ContactInnerWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: auto;
+}
+.leftContactPanel {
+  display: block;
+  background-color: rgba(255, 243, 225, 255);
+  height: 100vh;
+  width: 50vw;
+  background-image: url(./images/PresentDudeWide-960.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.Helloh1 {
+  font-family: "Cooper Black Italic";
+  font-size: 5vw;
+  margin-left: 5vw;
+  margin-top: 30vh;
+}
+.Helloh12 {
+  font-family: "Cooper Black Italic";
+  font-size: 5vw;
+  margin-left: 8vw;
+}
+.rightContactPanel {
+  height: 100%;
+  width: 50%;
+}

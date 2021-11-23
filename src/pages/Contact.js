@@ -1,38 +1,22 @@
 import React from "react";
-import GoogMap from "../components/GoogleMap";
 import Helmet from "react-helmet";
+import styles from "../Contact.module.css";
 
 const Contact = () => {
   return (
-    <div className="ContactWrapper">
+    <div className={styles.ContactWrapper}>
       <Helmet>
         {/* <title>Contact </title> */}
         <meta name="description" content="Contact Page of Do Something LA" />
         <meta name="keywords" content="Contact, Do Something, Email, Address" />
       </Helmet>
-      <div className="ContactWrapperText">
-        <a
-          href="https://goo.gl/maps/Sxenhoa1Y3WppPAR8"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <h2>
-            Address: <br /> 1726 N Spring St, Los Angeles, CA 90012
-          </h2>
-        </a>
-        <a href="tel:2135370219">
-          <h2>
-            Phone: <br /> 213.537.0219
-          </h2>
-        </a>
-
-        <a href="mailto: toys@dosomething.club">
-          <h2>
-            Email: <br /> toys@dosomething.club
-          </h2>
-        </a>
+      <div className={styles.ContactInnerWrapper}>
+        <div className={styles.leftContactPanel}>
+          <h1 className={styles.Helloh1}>HEY</h1>
+          <h1 className={styles.Helloh12}>HELLOOO</h1>
+        </div>
+        <div className={styles.rightContactPanel}>right</div>
       </div>
-      <GoogMap />
     </div>
   );
 };
