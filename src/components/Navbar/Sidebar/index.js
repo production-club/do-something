@@ -15,17 +15,18 @@ const Sidebar = ({ toggle, isOpen }) => {
         <CloseIcon onClick={toggle} />
       </Icon>
       <SidebarWrapper>
+        <SidebarLink to="/" onClick={toggle} className="DSLogoSide">
+          {" "}
+          Do Something.
+        </SidebarLink>
         <SidebarMenu>
-          <SidebarLink to="/" onClick={toggle}>
-            Home
-          </SidebarLink>
-          <SidebarLink to="/donate" onClick={toggle}>
+          <SidebarLink to="/donate" onClick={toggle} className="SidebarLink">
             Donate
           </SidebarLink>
-          <SidebarLink to="/contact" onClick={toggle}>
+          <SidebarLink to="/contact" onClick={toggle} className="SidebarLink">
             Contact
           </SidebarLink>
-          <SidebarLink to="/about" onClick={toggle}>
+          <SidebarLink to="/about" onClick={toggle} className="SidebarLink">
             About
           </SidebarLink>
           {/* <SidebarLink to="/volunteer" onClick={toggle}>

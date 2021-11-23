@@ -68,14 +68,10 @@ body {
 .PresentWrapper {
   width: 100%;
   height: 120vh;
-  /* margin-top: -5px; */
   background-image: url(./images/presentdesktop.png);
   background-repeat: no-repeat;
-  /* margin-top: -10px; */
   background-size: contain;
-  /* position: absolute; */
-  /* overflow-y: auto; */
-  /* top: 0; */
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -86,16 +82,17 @@ body {
 }
 .PresentTextWrapper h1 {
   font-family: "Cooper Black";
-  font-size: 5vw;
+  font-size: 5rem;
+  padding: 10px;
 }
 .PresentTextWrapper p {
   font-family: "Univers";
-  font-size: 3vw;
+  font-size: 3rem;
 }
 .HomeTextOuterWrapper {
   display: flex;
   flex-direction: column;
-  width: 85vw;
+  width: 95vw;
   margin-top: 40px;
   margin-bottom: 40px;
 }
@@ -105,14 +102,15 @@ body {
   flex-direction: row;
   justify-content: space-between;
   padding: 20px;
-  width: 100%;
+  margin: auto;
+  width: 90%;
   text-align: left;
 }
 
 .HomeTextInnerWrapper p {
   font-family: "Univers";
-  font-size: 1vw;
-  padding: 10px;
+  font-size: 1.5rem;
+  padding: 30px;
 }
 .ContactWrapper {
   background-color: rgba(255, 243, 225, 255);
@@ -148,10 +146,9 @@ body {
   display: flex;
   position: static;
   float: left;
-  width: 90vw;
+  width: 95vw;
   justify-content: space-evenly;
   min-width: fit-content;
-  /* padding: 15px 15px 15px 15px; */
   flex-direction: row;
   text-decoration: none;
 }
@@ -174,16 +171,16 @@ p {
 }
 .DonateTextWrapper p {
   font-family: "Univers";
-  font-size: 1.5vw;
+  font-size: 2rem;
 }
 .DonateTextWrapper h1 {
   font-family: "Cooper Black";
-  font-size: 3vw;
+  font-size: 3rem;
 }
 .DonateButton {
   border: 2px solid black;
   font-family: "Univers";
-  font-size: 2vw;
+  font-size: 3rem;
   color: black;
   width: 30vw;
   min-width: 50%;
@@ -192,7 +189,20 @@ p {
   padding: 2rem;
   margin-bottom: 10vh;
 }
+.SidebarLink {
+  font-family: "Univers";
+  color: #f86149;
+  font-size: 4rem;
+  padding: 0 10 20 20;
+}
+.DSLogoSide {
+  font-family: "Cooper Black";
+  position: absolute;
+  top: 25px;
 
+  font-size: 5rem;
+  color: white;
+}
 .homeLink {
   text-decoration: none;
   color: black;
@@ -202,6 +212,7 @@ p {
 .VolunteerButton:hover {
   background-color: rgba(33, 174, 149, 255);
   color: black;
+  transition: ease-in-out 0.2s;
 }
 
 /* FOOOOOOTTER  */
@@ -209,7 +220,7 @@ p {
   width: 100%;
   position: relative;
   bottom: 0;
-  background-color: black;
+  border-top: 2px solid #8c848c;
   justify-content: center;
   height: 20vh;
   display: flex;
@@ -221,7 +232,8 @@ p {
   flex-direction: column;
   text-align: center;
   max-height: 20vh;
-  color: white;
+  color: black;
+
   /* width: 100%; */
   /* margin: auto; */
 }
@@ -260,6 +272,27 @@ p {
   font-family: "Cooper Black";
 }
 /* media queries */
+
+@media screen and (max-width: 1024px) {
+  .PresentWrapper {
+    background-image: url(./images/presentmobile.png);
+    background-position: center 30px;
+  }
+  .PresentTextWrapper h1 {
+    font-family: "Cooper Black";
+    font-size: 6rem;
+  }
+  .PresentTextWrapper p {
+    font-family: "Univers";
+    font-size: 3rem;
+  }
+  .HomeTextInnerWrapper p {
+    font-family: "Univers";
+    font-size: 2rem;
+    padding: 10px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .ContactWrapper {
     display: flex;
@@ -273,17 +306,48 @@ p {
     width: 90vw;
     margin: auto;
   }
-  .FooterLinks img {
-    width: 40%;
-  }
-  /* .HomeButtonWrapper {
-    width: 100%;
-  } */
+
   .DonateButton {
     width: 90vw;
-    /* border-radius: 1.2em 50em 40em; */
   }
+
   .DSLogo {
     display: none;
+  }
+  .PresentWrapper {
+    background-image: url(./images/PresentDudePurp-360.png);
+    background-position: center;
+  }
+  .PresentTextWrapper h1 {
+    font-family: "Cooper Black";
+    font-size: 2rem;
+  }
+  .PresentTextWrapper p {
+    font-family: "Univers";
+    font-size: 0.8rem;
+  }
+  .HomeTextOuterWrapper {
+    width: 100vw;
+  }
+  .HomeTextInnerWrapper p {
+    font-family: "Univers";
+    font-size: 0.9rem;
+    width: 100%;
+    justify-content: space-between;
+    /* padding: 5px; */
+    /* margin: 3px; */
+  }
+  .SidebarLink {
+    font-family: "Univers";
+    color: #f86149;
+    font-size: 1rem;
+    padding: 0 10 20 20;
+  }
+  .DSLogoSide {
+    font-family: "Cooper Black";
+    position: absolute;
+    top: 25px;
+    font-size: 1.5rem;
+    color: white;
   }
 }

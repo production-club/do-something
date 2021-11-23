@@ -1,10 +1,17 @@
 import React from "react";
 import { NavLink as Link } from "react-router-dom";
 import Helmet from "react-helmet";
-import present from "../images/presentdesktop.png";
+
 const Home = () => {
   return (
     <div className="HomeWrapper">
+      <Helmet>
+        <meta name="description" content="Home Section of Do Something LA" />
+        <meta
+          name="keywords"
+          content="Home, Do Something, landing page, donate button"
+        />
+      </Helmet>
       <div className="PresentWrapper">
         <div className="PresentTextWrapper">
           <h1>Annual Toy Giveaway </h1>
@@ -35,20 +42,9 @@ const Home = () => {
       </div>
       <div></div>
       <div className="HomeButtonWrapper">
-        <Helmet>
-          {/* <title>Do Something</title> */}
-          <meta name="description" content="Home Section of Do Something LA" />
-          <meta
-            name="keywords"
-            content="Home, Do Something, landing page, donate button"
-          />
-        </Helmet>
         <Link to="/donate" className="homeLink">
           <div className="DonateButton">DONATE</div>
         </Link>
-        {/* <Link to="/volunteer" className="homeLink">
-          <div className="VolunteerButton">VOLUNTEER</div>
-        </Link> */}
       </div>
     </div>
   );

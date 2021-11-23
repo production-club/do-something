@@ -24,22 +24,23 @@ export const NavLink = styled(Link)`
   padding: 0 1rem;
   margin-top: 4rem;
   height: 100%;
+  font-size: 2rem;
   cursor: pointer;
 
   &.active {
-    color: #ff0000;
+    color: #f86149;
   }
 `;
 export const Bars = styled(FaBars)`
   display: none;
-  color: #000;
+  color: #f86149;
 
   @media screen and (max-width: 768px) {
     display: block;
     position: absolute;
-    top: 0;
+    top: 15px;
     right: 0;
-    transform: translate(-100%, 75%);
+    /* transform: translate(-100%, 75%); */
     font-size: 1.8rem;
     cursor: pointer;
   }
