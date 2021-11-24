@@ -80,6 +80,9 @@ const About = () => {
             <p>
               We have an ambitious goal we will be working towards each year
               from here on out: No kid in LA without a yearly toy.
+              <br />
+              <br />
+              We’re aiming for this because of two main reasons:
             </p>
           </div>
         </div>

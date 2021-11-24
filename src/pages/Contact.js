@@ -1,5 +1,6 @@
 import React from "react";
 import Helmet from "react-helmet";
+import ContactForm from "../components/ContactForm";
 import styles from "../Contact.module.css";
 
 const Contact = () => {
@@ -15,7 +16,9 @@ const Contact = () => {
           <h1 className={styles.Helloh1}>HEY</h1>
           <h1 className={styles.Helloh12}>HELLOOO</h1>
         </div>
-        <div className={styles.rightContactPanel}>right</div>
+        <div className={styles.rightContactPanel}>
+          <ContactForm />
+        </div>
       </div>
     </div>
   );

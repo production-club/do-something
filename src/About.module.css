@@ -34,6 +34,7 @@
   position: absolute;
   left: 0;
   top: 50%;
+  z-index: -1;
 }
 .AboutSection {
   height: 100vh;
@@ -46,8 +47,8 @@
   text-align: left;
   margin-left: auto;
   width: 70%;
-  margin-top: 6vh;
-  height: 90%;
+  margin-top: 10vh;
+  height: 80%;
 }
 .OuterFlex2 {
   display: flex;
@@ -68,7 +69,6 @@
   font-size: 4vw;
 }
 .TextFlex {
-  /* margin-top: 5vh; */
   display: flex;
   flex-direction: row;
   margin-left: 3vw;
@@ -85,6 +85,8 @@
 .InnerFlex2 {
   display: flex;
   flex-direction: row;
+  margin: auto;
+  height: 20vh;
   width: 80%;
 }
 .InnerFlex2 p {
@@ -97,9 +99,13 @@
   padding: 0 4px;
   width: 100%;
 }
-.ImageGrid img {
-  padding: 10px 10px 10px 10px;
+.ImageGrid {
   margin: auto;
+}
+.ImageGrid img {
+  padding: 0 4px;
+  width: 20vw;
+  height: auto;
 }
 .OuterFlexSection2 {
   display: flex;

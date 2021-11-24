@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-export class VolunteerForm extends Component {
+export class ContactForm extends Component {
   componentDidMount() {
     const script = document.createElement("script");
     script.src = "https://productionclub.activehosted.com/f/embed.php?id=40";
@@ -12,4 +12,4 @@ export class VolunteerForm extends Component {
   }
 }
 
-export default VolunteerForm;
+export default ContactForm;
