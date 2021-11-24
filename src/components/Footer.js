@@ -1,10 +1,5 @@
 import React from "react";
-// import PCLogo from "../logo.png";
-// import PCEmblem from "../production-club-logo.svg";
-// import LinkedIn from "../images/linkedin.png";
-// import Instagram from "../images/instagram.png";
-// import Facebook from "../images/facebook.png";
-// import Twitter from "../images/twitter.png";
+
 export default function Footer() {
   return (
     <div className="FooterWrapper">

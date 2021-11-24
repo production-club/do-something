@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "Cooper Black Italic";
+  src: url("./fonts/CooperBlackStd-Italic.otf");
+}
+@font-face {
+  font-family: "Cooper Black";
+  src: url("./fonts/CooperBlackStd.otf");
+}
+@font-face {
+  font-family: "Univers";
+  src: url("./fonts/UniversLTStd.otf");
+}
+
+.AboutWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+  text-align: center;
+  min-height: calc(200vh - 34px);
+  height: auto;
+  max-width: 100%;
+  min-width: fit-content;
+
+  /* overflow-y: auto; */
+}
+.PresImg {
+  height: 150vh;
+  width: 30%;
+  background-image: url("./images/PresentDudeLong.svg");
+  background-repeat: no-repeat;
+  background-size: scale-down;
+  background-position: bottom;
+  position: absolute;
+  left: 0;
+  top: 50%;
+}
+.AboutSection {
+  height: 100vh;
+  width: 100%;
+}
+.OuterFlex1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  margin-left: auto;
+  width: 70%;
+  height: 100%;
+}
+.InnerFlex1 {
+  display: flex;
+  flex-direction: column;
+}
+.InnerFlex1 h1 {
+  font-family: "Cooper Black";
+  font-size: 4vw;
+}
+.TextFlex {
+  /* margin-top: 5vh; */
+  display: flex;
+  flex-direction: row;
+  margin-left: 3vw;
+}
+.TextFlex h1 {
+  font-family: "Cooper Black";
+  margin-right: 10px;
+  font-size: 4vw;
+}
+.TextFlex p {
+  font-family: "Univers";
+  font-size: smaller;
+}
+.InnerFlex2 {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+}
+.InnerFlex2 p {
+  font-family: "Univers";
+  padding: 4rem;
+}
+.OuterGrid {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  width: 100%;
+}
+.ImageGrid img {
+  padding: 10px 10px 10px 10px;
+  margin: auto;
+}

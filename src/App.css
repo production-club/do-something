@@ -43,8 +43,6 @@ body {
 }
 
 .HomeWrapper,
-.VolunteerWrapper,
-.AboutWrapper,
 .DonateWrapper,
 .iFrameWrapper,
 .ThankyouWrapper {
@@ -151,10 +149,7 @@ body {
   flex-direction: row;
   text-decoration: none;
 }
-.AboutCopyWrapper {
-  width: 90%;
-  text-align: left;
-}
+
 .WhyDiv ol {
   padding: 20px 20px;
   margin-top: -10px;
