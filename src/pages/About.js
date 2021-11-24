@@ -47,7 +47,43 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className={styles.AboutSection}></div>
+      <div className={styles.AboutSection}>
+        <div className={styles.OuterFlexSection2}>
+          <div className={styles.OuterFlex2}>
+            <div className={styles.InnerFlex1}>
+              <div>
+                <h1>This</h1>
+              </div>
+              <div className={styles.TextFlex}>
+                <h1>Year</h1>
+                <p>(2021)</p>
+              </div>
+            </div>
+            <div className={styles.InnerFlexSec2}>
+              <p>
+                We want to double the amount of families we reach, so we’re
+                starting earlier to source gifts and get the word out about the
+                toy giveaway. To make those things happen we’re asking for
+                donations from the public.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className={styles.OuterFlex2}>
+          <div className={styles.InnerFlex1}>
+            <div className={styles.TextFlexWhy}>
+              <h1>Why?</h1>
+              <p>(Beyond)</p>
+            </div>
+          </div>
+          <div className={styles.InnerFlexSec3}>
+            <p>
+              We have an ambitious goal we will be working towards each year
+              from here on out: No kid in LA without a yearly toy.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

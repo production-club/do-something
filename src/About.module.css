@@ -46,7 +46,18 @@
   text-align: left;
   margin-left: auto;
   width: 70%;
-  height: 100%;
+  margin-top: 6vh;
+  height: 90%;
+}
+.OuterFlex2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+  text-align: left;
+  margin-left: auto;
+  width: 70%;
+  margin-top: 6vh;
+  height: 90%;
 }
 .InnerFlex1 {
   display: flex;
@@ -82,11 +93,50 @@
 }
 .OuterGrid {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: no-wrap;
   padding: 0 4px;
   width: 100%;
 }
 .ImageGrid img {
   padding: 10px 10px 10px 10px;
   margin: auto;
+}
+.OuterFlexSection2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  margin-left: -5vw;
+}
+.InnerFlexSec2 {
+  width: 90%;
+}
+.InnerFlexSec2 p {
+  font-family: "Univers";
+  /* padding: 5rem; */
+  width: 80%;
+}
+.TextFlexWhy {
+  margin-left: -10vw;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.TextFlexWhy h1 {
+  margin-right: 10px;
+}
+.TextFlexWhy p {
+  font-family: "Univers";
+  margin-right: 2rem;
+}
+.InnerFlexSec3 {
+  width: 90%;
+  align-items: center;
+}
+.InnerFlexSec3 p {
+  font-family: "Univers";
+  /* padding: 5rem; */
+  width: 80%;
 }

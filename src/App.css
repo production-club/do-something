@@ -79,12 +79,12 @@ body {
 }
 .PresentTextWrapper h1 {
   font-family: "Cooper Black";
-  font-size: 5rem;
+  font-size: 5vw;
   padding: 10px;
 }
 .PresentTextWrapper p {
   font-family: "Univers";
-  font-size: 3rem;
+  font-size: 3vw;
 }
 .HomeTextOuterWrapper {
   display: flex;
