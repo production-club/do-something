@@ -1,24 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.ba19da6b.chunk.css",
-    "main.js": "/static/js/main.a3da972c.chunk.js",
-    "main.js.map": "/static/js/main.a3da972c.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.880acc70.js",
-    "runtime-main.js.map": "/static/js/runtime-main.880acc70.js.map",
-    "static/js/2.cb1e77f2.chunk.js": "/static/js/2.cb1e77f2.chunk.js",
-    "static/js/2.cb1e77f2.chunk.js.map": "/static/js/2.cb1e77f2.chunk.js.map",
-    "static/js/3.85668e3c.chunk.js": "/static/js/3.85668e3c.chunk.js",
-    "static/js/3.85668e3c.chunk.js.map": "/static/js/3.85668e3c.chunk.js.map",
+    "main.css": "/static/css/main.3021ccad.chunk.css",
+    "main.js": "/static/js/main.afff79fd.chunk.js",
+    "main.js.map": "/static/js/main.afff79fd.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f7b944a1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f7b944a1.js.map",
+    "static/js/2.1cb1dc6c.chunk.js": "/static/js/2.1cb1dc6c.chunk.js",
+    "static/js/2.1cb1dc6c.chunk.js.map": "/static/js/2.1cb1dc6c.chunk.js.map",
+    "static/js/3.20b9564a.chunk.js": "/static/js/3.20b9564a.chunk.js",
+    "static/js/3.20b9564a.chunk.js.map": "/static/js/3.20b9564a.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.ba19da6b.chunk.css.map": "/static/css/main.ba19da6b.chunk.css.map",
-    "static/js/2.cb1e77f2.chunk.js.LICENSE.txt": "/static/js/2.cb1e77f2.chunk.js.LICENSE.txt",
+    "static/css/main.3021ccad.chunk.css.map": "/static/css/main.3021ccad.chunk.css.map",
+    "static/js/2.1cb1dc6c.chunk.js.LICENSE.txt": "/static/js/2.1cb1dc6c.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/UniversLTStd.f6f9029c.otf",
-    "static/media/Contact.module.css": "/static/media/PresentDudeWide-960.09cea073.svg"
+    "static/media/About.module.css": "/static/media/PresentDudeLong.00b24893.svg",
+    "static/media/Contact.module.css": "/static/media/PresentDudeWide-960.09cea073.svg",
+    "static/media/ToyDrive01.aec8af08.jpg": "/static/media/ToyDrive01.aec8af08.jpg",
+    "static/media/ToyDrive02.30d05549.jpg": "/static/media/ToyDrive02.30d05549.jpg",
+    "static/media/ToyDrive03.27642e46.jpg": "/static/media/ToyDrive03.27642e46.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.880acc70.js",
-    "static/js/2.cb1e77f2.chunk.js",
-    "static/css/main.ba19da6b.chunk.css",
-    "static/js/main.a3da972c.chunk.js"
+    "static/js/runtime-main.f7b944a1.js",
+    "static/js/2.1cb1dc6c.chunk.js",
+    "static/css/main.3021ccad.chunk.css",
+    "static/js/main.afff79fd.chunk.js"
   ]
 }
