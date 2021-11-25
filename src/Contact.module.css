@@ -105,4 +105,9 @@
     font-size: 12vw;
     margin-top: 2vh;
   }
+  .ContactCopy h3 {
+    font-family: "Univers";
+    margin-bottom: 4vh;
+    font-size: 0.8em;
+  }
 }
