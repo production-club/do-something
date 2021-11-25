@@ -36,16 +36,7 @@ body {
   position: relative;
 }
 
-.App {
-  /* overflow-y: none; */
-  /* position: relative; */
-}
-._form_40 {
-  font-family: "Ariel";
-}
-
 .HomeWrapper,
-.DonateWrapper,
 .iFrameWrapper,
 .ThankyouWrapper {
   display: flex;
@@ -111,29 +102,7 @@ body {
   font-size: 1.5rem;
   padding: 30px;
 }
-.ContactWrapper {
-  background-color: rgba(255, 243, 225, 255);
 
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  min-height: calc(100vh - 34px);
-  height: auto;
-  max-width: 100%;
-  min-width: fit-content;
-  /* margin-top: 10vh; */
-  overflow-y: auto;
-}
-
-.ContactWrapperText {
-  text-align: left;
-  margin-left: auto;
-  padding-left: 10px;
-  display: flex;
-  flex-direction: column;
-}
 .iFrameWrapper {
   align-items: center;
   margin-top: 3.2rem;
@@ -152,16 +121,6 @@ body {
   text-decoration: none;
 }
 
-.WhyDiv ol {
-  padding: 20px 20px;
-  margin-top: -10px;
-}
-h3,
-h2,
-p {
-  margin-top: 2px;
-  margin-bottom: 20px;
-}
 .DonateTextWrapper {
   margin-bottom: 5vh;
 }
@@ -283,16 +242,30 @@ p {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1450px) {
+  .PresentWrapper {
+    background-image: url(./images/PresentDudePurp-02.svg);
+    background-position: center;
+    background-size: contain;
+    margin-top: 10vh;
+  }
+  .PresentTextWrapper h1 {
+    font-family: "Cooper Black";
+    font-size: 3em;
+  }
+
+  .PresentTextWrapper p {
+    font-family: "Univers";
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 770px) {
   .ContactWrapper {
     display: flex;
     flex-direction: column;
   }
   .ContactWrapperText {
-    width: 90vw;
-    margin: auto;
-  }
-  .MapWrapper {
     width: 90vw;
     margin: auto;
   }
@@ -308,24 +281,29 @@ p {
     background-image: url(./images/PresentDudePurp-03.svg);
     background-position: center;
   }
+  .PresentTextWrapper {
+    max-width: 60%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
   .PresentTextWrapper h1 {
     font-family: "Cooper Black";
-    font-size: 2rem;
+    font-size: 2.4rem;
   }
   .PresentTextWrapper p {
     font-family: "Univers";
-    font-size: 0.8rem;
+    font-size: 1.1rem;
   }
   .HomeTextOuterWrapper {
-    width: 100vw;
+    width: 100%;
   }
   .HomeTextInnerWrapper p {
     font-family: "Univers";
     font-size: 0.9rem;
     width: 100%;
     justify-content: space-between;
-    /* padding: 5px; */
-    /* margin: 3px; */
   }
   .SidebarLink {
     font-family: "Univers";
