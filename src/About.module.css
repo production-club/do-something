@@ -202,11 +202,16 @@
   .HomePFlex {
     display: flex;
     padding: 0;
+    width: 55vw;
+    margin-left: -3vw;
     height: auto;
   }
-  .HomePFlex p {
-    padding: 0;
-    width: 100%;
+  .HeadingWrapper:first-child {
+    margin-left: -5vw;
+  }
+
+  .WhyWrapper {
+    margin-left: -5vw;
   }
   .TabletPictures {
     height: 200vh;

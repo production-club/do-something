@@ -82,18 +82,20 @@ const About = () => {
             To make those things happen we’re asking for donations from the
             public.
           </p>
-          <div className={styles.HeadingWrapper}>
-            <h1>Why?</h1>
-            <h3>(Beyond)</h3>
+          <div className={styles.WhyWrapper}>
+            <div className={styles.HeadingWrapper}>
+              <h1>Why?</h1>
+              <h3>(Beyond)</h3>
+            </div>
+            <p>
+              We have an ambitious goal we will be working towards each year
+              from here on out: No kid in LA without a yearly toy.
+              <br />
+              <br />
+              <br />
+              We’re aiming for this because of two main reasons:
+            </p>
           </div>
-          <p>
-            We have an ambitious goal we will be working towards each year from
-            here on out: No kid in LA without a yearly toy.
-            <br />
-            <br />
-            <br />
-            We’re aiming for this because of two main reasons:
-          </p>
           <div className={styles.ReasonsWhy}>
             <div className={styles.WhyInnerWrapper}>
               <h1 className={styles.h1Outline}>01</h1>
