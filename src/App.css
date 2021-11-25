@@ -246,6 +246,16 @@ p {
   font-family: "Cooper Black";
   font-size: 3.5vw;
 }
+
+/* AC CONTACTFORM 
+ */
+._field12 label,
+._x40490770 label,
+._x02542146 label,
+._submit {
+  font-family: "Univers";
+}
+
 /* media queries */
 
 @media screen and (max-width: 1024px) {

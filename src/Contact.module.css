@@ -51,4 +51,39 @@
 .rightContactPanel {
   height: 100%;
   width: 50%;
+  flex-flow: column;
+  justify-content: center;
+}
+.ContactCopy {
+  width: 90%;
+  margin: auto;
+  line-height: 2em;
+  text-align: center;
+}
+.ContactCopy h3 {
+  font-family: "Univers";
+  margin-bottom: 4vh;
+}
+
+@media screen and (max-width: 1024px) {
+  .ContactInnerWrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 20vh;
+  }
+  .rightContactPanel {
+    width: 100%;
+    height: 50%;
+  }
+  .leftContactPanel {
+    width: 100%;
+    height: 50vh;
+  }
+  .leftContactPanel h1 {
+    font-size: 9vw;
+    margin-top: 2vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
 }
