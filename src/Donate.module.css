@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "Cooper Black Italic";
+  src: url("./fonts/CooperBlackStd-Italic.otf");
+}
+@font-face {
+  font-family: "Cooper Black";
+  src: url("./fonts/CooperBlackStd.otf");
+}
+@font-face {
+  font-family: "Univers";
+  src: url("./fonts/UniversLTStd.otf");
+}
+
+.iFrameWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: calc(100vh - 34px);
+  height: auto;
+  max-width: 100%;
+  min-width: fit-content;
+  overflow-y: auto;
+  align-items: center;
+  margin-top: 6rem;
+}
+.TitleWrapper {
+  display: none;
+}
+
+.DonorContent {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 4vh;
+}
+.DonorContent p {
+  font-family: "Univers";
+}
+@media screen and (max-width: 768px) {
+  .TitleWrapper {
+    display: block;
+    width: 100%;
+    margin-top: 1vh;
+    text-align: left;
+  }
+  .Title {
+    margin-top: 2vh;
+    font-size: 7vw;
+    margin-left: 1rem;
+    font-family: "Cooper Black";
+  }
+}

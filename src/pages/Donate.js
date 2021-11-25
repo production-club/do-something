@@ -1,20 +1,21 @@
 import React from "react";
 import Helmet from "react-helmet";
+import styles from "../Donate.module.css";
+
 const Donate = () => {
   return (
-    <div className="DonateWrapper">
-      <div className="TitleWrapper">
-        <h1 className="Title">Do Something. </h1>
+    <div className={styles.DonateWrapper}>
+      <div className={styles.TitleWrapper}>
+        <h1 className={styles.Title}>Do Something. </h1>
       </div>
       <Helmet>
-        {/* <title> Do Something // Donate</title> */}
         <meta name="description" content="Donate Section of Do Something LA" />
         <meta
           name="keywords"
           content="Donate, Do Something, Stripe Payment, donorbox"
         />
       </Helmet>
-      <div className="iFrameWrapper">
+      <div className={styles.iFrameWrapper}>
         <iframe
           title="donorbox"
           src="https://donorbox.org/embed/do-something-toy-giveaway"
@@ -34,19 +35,8 @@ const Donate = () => {
             marginBottom: "100px",
           }}
         ></iframe>
-        {/* <iframe
-          src="https://donorbox.org/embed/do-something-toy-giveaway"
-          name="donorbox"
-          allowpaymentrequest="allowpaymentrequest"
-          seamless="seamless"
-          frameborder="0"
-          scrolling="no"
-          height="900px"
-          width="100%"
-          style="max-width: 500px; min-width: 250px; max-height:none!important"
-        ></iframe> */}
       </div>
-      <div className="DonorContent">
+      <div className={styles.DonorContent}>
         <p>
           Do Something has applied for tax exemption status to the IRS and we
           are pending a determination.
