@@ -16,8 +16,15 @@
 }
 .Title {
   margin-top: 2vh;
+  font-size: 7vw;
   margin-left: 1rem;
   font-family: "Cooper Black";
+}
+.HomePFlex {
+  display: none;
+}
+.DesktopPics {
+  display: none;
 }
 .AboutWrapper {
   display: block;
@@ -173,6 +180,27 @@
 @media screen and (min-width: 1080px) {
   .TabletPictures img {
     display: none;
+  }
+  .TabletP {
+    display: none;
+  }
+  .DesktopPics {
+    display: flex;
+    width: 30vw;
+    margin-bottom: 3vh;
+  }
+  .DesktopPics img {
+    padding: 0.5em;
+    width: 15vw;
+  }
+  .HomePFlex {
+    display: flex;
+    padding: 0;
+    height: auto;
+  }
+  .HomePFlex p {
+    padding: 0;
+    width: 100%;
   }
   .TabletPictures {
     height: 200vh;

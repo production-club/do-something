@@ -24,13 +24,34 @@ const About = () => {
             <h1>Last Year</h1>
             <h3>(2020)</h3>
           </div>
-          <p>
+          <p className={styles.TabletP}>
             {" "}
             In 2020 we realized a lot of systemic forces were coming together to
             pinch people who were economically vulnerable. We started Do
             Something to find ways to help improve the lived experience of
             people in those positions.
           </p>
+          <div className={styles.HomePFlex}>
+            <p>
+              {" "}
+              In 2020 we realized a lot of systemic forces were coming together
+              to pinch people who were economically vulnerable. We started Do
+              Something to find ways to help improve the lived experience of
+              people in those positions.
+            </p>
+            <p>
+              {" "}
+              The Toy Giveaway was one way we saw we could help by making the
+              holidays a little easier for those who wanted to give gifts to
+              their kids but were unable to. It was successful and we gave
+              around 4000 presents to 700 families.
+            </p>
+          </div>
+          <div className={styles.DesktopPics}>
+            <img src={img01} alt="toy drive 2020" />
+            <img src={img02} alt="toy drive 2020" />
+            <img src={img03} alt="toy drive 2020" />
+          </div>
         </div>
         <div className={styles.MobileCopy}>
           <img src={img01} alt="toy drive 2020" />
