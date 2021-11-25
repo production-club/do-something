@@ -103,6 +103,7 @@ body {
 .FooterFlex p {
   font-family: "Univers";
   text-align: right;
+  font-size: 1em;
 }
 
 .DSLogo {
@@ -152,5 +153,12 @@ body {
     top: 25px;
     font-size: 1.5rem;
     color: white;
+  }
+  .FooterFlex p {
+    font-family: "Univers";
+    text-align: right;
+    font-size: 0.6em;
+    padding: 2em;
+    /* width: 40%; */
   }
 }
