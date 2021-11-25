@@ -12,6 +12,9 @@ const Home = () => {
           content="Home, Do Something, landing page, donate button"
         />
       </Helmet>
+      <div className="TitleWrapper">
+        <h1 className="Title">Do Something. </h1>
+      </div>
       <div className="PresentWrapper">
         <div className="PresentTextWrapper">
           <h1>Annual Toy Giveaway </h1>
@@ -31,7 +34,7 @@ const Home = () => {
           </p>
 
           <p>
-            We are currently looking for donations to buy GOOD toys We do not
+            We are currently looking for donations to buy GOOD toys. We do not
             accept drop off toys.
           </p>
         </div>

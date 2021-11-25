@@ -50,7 +50,9 @@ body {
   min-width: fit-content;
   overflow-y: auto;
 }
-
+.TitleWrapper {
+  display: none;
+}
 .HomeWrapper {
   margin-top: -20px;
 }
@@ -70,6 +72,7 @@ body {
   width: 100%;
   height: auto;
 }
+
 .PresentTextWrapper h1 {
   font-family: "Cooper Black";
   font-size: 5vw;
@@ -273,7 +276,18 @@ body {
   .DonateButton {
     width: 90vw;
   }
-
+  .TitleWrapper {
+    display: block;
+    margin-top: 1vh;
+    width: 100%;
+    text-align: left;
+  }
+  .Title {
+    margin-top: 2vh;
+    font-size: 7vw;
+    margin-left: 1rem;
+    font-family: "Cooper Black";
+  }
   .DSLogo {
     display: none;
   }
@@ -290,11 +304,11 @@ body {
   }
   .PresentTextWrapper h1 {
     font-family: "Cooper Black";
-    font-size: 2.4rem;
+    font-size: 2rem;
   }
   .PresentTextWrapper p {
     font-family: "Univers";
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   .HomeTextOuterWrapper {
     width: 100%;

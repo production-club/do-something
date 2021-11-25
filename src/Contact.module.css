@@ -20,6 +20,9 @@
   /* margin-top: 10vh; */
   overflow-y: auto;
 }
+.TitleWrapper {
+  display: none;
+}
 .ContactInnerWrapper {
   display: flex;
   flex-direction: row;
@@ -86,4 +89,20 @@
 }
 
 @media screen and (max-width: 768px) {
+  .TitleWrapper {
+    display: block;
+    width: 100%;
+    margin-top: 1vh;
+    text-align: left;
+  }
+  .Title {
+    margin-top: 2vh;
+    font-size: 7vw;
+    margin-left: 1rem;
+    font-family: "Cooper Black";
+  }
+  .leftContactPanel h1 {
+    font-size: 12vw;
+    margin-top: 2vh;
+  }
 }

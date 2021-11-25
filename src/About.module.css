@@ -12,6 +12,7 @@
 }
 .TitleWrapper {
   width: 100%;
+  margin-top: 1vh;
   text-align: left;
 }
 .Title {

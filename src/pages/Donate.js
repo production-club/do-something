@@ -3,6 +3,9 @@ import Helmet from "react-helmet";
 const Donate = () => {
   return (
     <div className="DonateWrapper">
+      <div className="TitleWrapper">
+        <h1 className="Title">Do Something. </h1>
+      </div>
       <Helmet>
         {/* <title> Do Something // Donate</title> */}
         <meta name="description" content="Donate Section of Do Something LA" />
@@ -12,7 +15,6 @@ const Donate = () => {
         />
       </Helmet>
       <div className="iFrameWrapper">
-        {/* <h3>Donate 💸</h3> */}
         <iframe
           title="donorbox"
           src="https://donorbox.org/embed/do-something-toy-giveaway"

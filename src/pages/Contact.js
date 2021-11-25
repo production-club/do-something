@@ -6,6 +6,9 @@ import styles from "../Contact.module.css";
 const Contact = () => {
   return (
     <div className={styles.ContactWrapper}>
+      <div className={styles.TitleWrapper}>
+        <h1 className={styles.Title}>Do Something. </h1>
+      </div>
       <Helmet>
         {/* <title>Contact </title> */}
         <meta name="description" content="Contact Page of Do Something LA" />
