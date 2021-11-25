@@ -65,6 +65,9 @@
   padding-left: 1em;
   margin: 0;
 }
+.TabletP {
+  display: none;
+}
 .HeadingWrapper h1 {
   font-family: "Cooper Black";
   font-size: 1.8rem;
@@ -175,6 +178,9 @@
     background-repeat: no-repeat;
     background-position: center;
   }
+  .TabletP {
+    display: flex;
+  }
 }
 
 @media screen and (min-width: 1080px) {
@@ -211,7 +217,7 @@
   }
   .InnerWrapper {
     width: 70%;
-    margin-top: 40vh;
+    margin-top: 20vh;
   }
   .CopyWrapper h1 {
     font-size: 4rem;
