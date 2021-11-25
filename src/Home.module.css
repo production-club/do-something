@@ -1,0 +1,205 @@
+@font-face {
+  font-family: "Cooper Black Italic";
+  src: url("./fonts/CooperBlackStd-Italic.otf");
+}
+@font-face {
+  font-family: "Cooper Black";
+  src: url("./fonts/CooperBlackStd.otf");
+}
+@font-face {
+  font-family: "Univers";
+  src: url("./fonts/UniversLTStd.otf");
+}
+
+.HomeWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: calc(100vh - 34px);
+  height: auto;
+  max-width: 100%;
+  min-width: fit-content;
+  overflow-y: auto;
+}
+
+.TitleWrapper {
+  display: none;
+}
+.HomeWrapper {
+  margin-top: -20px;
+}
+
+.PresentWrapper {
+  width: 100%;
+  min-height: 123vh;
+
+  background-image: url(./images/PresentDudePurp-01.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center 20px;
+  display: flex;
+  /* margin-bottom: 5vh; */
+  flex-direction: column;
+  justify-content: center;
+}
+.PresentTextWrapper {
+  width: 100%;
+  height: auto;
+}
+
+.PresentTextWrapper h1 {
+  font-family: "Cooper Black";
+  font-size: 5vw;
+  padding: 10px;
+}
+.PresentTextWrapper p {
+  font-family: "Univers";
+  font-size: 3vw;
+}
+.HomeTextOuterWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 95vw;
+  z-index: -2;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.HomeTextInnerWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  margin: auto;
+  margin-top: 3vh;
+  width: 90%;
+  text-align: left;
+}
+
+.HomeTextInnerWrapper p {
+  font-family: "Univers";
+  font-size: 1.5rem;
+  padding: 30px;
+}
+
+.DonateTextWrapper {
+  margin-bottom: 5vh;
+}
+.DonateTextWrapper p {
+  font-family: "Univers";
+  font-size: 2rem;
+}
+.DonateTextWrapper h1 {
+  font-family: "Cooper Black";
+  font-size: 3rem;
+}
+.DonateButton {
+  border: 2px solid black;
+  font-family: "Univers";
+  font-size: 3rem;
+  color: black;
+  width: 40vw;
+  min-width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  margin-bottom: 10vh;
+}
+.DonateButton:hover {
+  background-color: rgba(33, 174, 149, 255);
+  color: black;
+  transition: ease-in-out 0.2s;
+}
+
+.homeLink {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .PresentWrapper {
+    background-image: url(./images/PresentDudePurp-02.svg);
+    background-position: center;
+    background-size: contain;
+    margin-top: 50px;
+  }
+  .PresentTextWrapper h1 {
+    font-family: "Cooper Black";
+    font-size: 5vw;
+  }
+  .PresentTextWrapper p {
+    font-family: "Univers";
+    font-size: 3vw;
+  }
+  .HomeTextInnerWrapper p {
+    font-family: "Univers";
+    font-size: 2rem;
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 1450px) {
+  .PresentWrapper {
+    background-image: url(./images/PresentDudePurp-02.svg);
+    background-position: center;
+    background-size: contain;
+    margin-top: 10vh;
+  }
+  .PresentTextWrapper h1 {
+    font-family: "Cooper Black";
+    font-size: 3em;
+  }
+
+  .PresentTextWrapper p {
+    font-family: "Univers";
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .DonateButton {
+    width: 90vw;
+  }
+  .TitleWrapper {
+    display: block;
+    margin-top: 2vh;
+    width: 100%;
+    text-align: left;
+  }
+  .Title {
+    margin-top: 2vh;
+    font-size: 7vw;
+    margin-left: 1rem;
+    font-family: "Cooper Black";
+  }
+  .PresentWrapper {
+    background-image: url(./images/PresentDudePurp-03.svg);
+    background-position: center;
+  }
+  .PresentTextWrapper {
+    max-width: 60%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+  .PresentTextWrapper h1 {
+    font-family: "Cooper Black";
+    font-size: 2rem;
+  }
+  .PresentTextWrapper p {
+    font-family: "Univers";
+    font-size: 1rem;
+  }
+  .HomeTextOuterWrapper {
+    width: 100%;
+  }
+  .HomeTextInnerWrapper p {
+    font-family: "Univers";
+    font-size: 0.9rem;
+    width: 100%;
+    justify-content: space-between;
+  }
+}

@@ -1,10 +1,11 @@
 import React from "react";
 import { NavLink as Link } from "react-router-dom";
 import Helmet from "react-helmet";
+import styles from "../Home.module.css";
 
 const Home = () => {
   return (
-    <div className="HomeWrapper">
+    <div className={styles.HomeWrapper}>
       <Helmet>
         <meta name="description" content="Home Section of Do Something LA" />
         <meta
@@ -12,11 +13,11 @@ const Home = () => {
           content="Home, Do Something, landing page, donate button"
         />
       </Helmet>
-      <div className="TitleWrapper">
-        <h1 className="Title">Do Something. </h1>
+      <div className={styles.TitleWrapper}>
+        <h1 className={styles.Title}>Do Something. </h1>
       </div>
-      <div className="PresentWrapper">
-        <div className="PresentTextWrapper">
+      <div className={styles.PresentWrapper}>
+        <div className={styles.PresentTextWrapper}>
           <h1>Annual Toy Giveaway </h1>
           <p>
             {" "}
@@ -25,8 +26,8 @@ const Home = () => {
           </p>
         </div>
       </div>
-      <div className="HomeTextOuterWrapper">
-        <div className="HomeTextInnerWrapper">
+      <div className={styles.HomeTextOuterWrapper}>
+        <div className={styles.HomeTextInnerWrapper}>
           <p>
             A toy giveaway just in time for the holidays for low-income families
             who need gifts for their children. <br /> The toys are for kids aged
@@ -39,14 +40,14 @@ const Home = () => {
           </p>
         </div>
       </div>
-      <div className="DonateTextWrapper">
+      <div className={styles.DonateTextWrapper}>
         <p>Do you want to</p>
         <h1> Do Something? </h1>
       </div>
       <div></div>
-      <div className="HomeButtonWrapper">
-        <Link to="/donate" className="homeLink">
-          <div className="DonateButton">DONATE</div>
+      <div className={styles.HomeButtonWrapper}>
+        <Link to="/donate" className={styles.homeLink}>
+          <div className={styles.DonateButton}>DONATE</div>
         </Link>
       </div>
     </div>
