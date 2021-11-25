@@ -40,6 +40,9 @@ body {
   /* overflow-y: none; */
   /* position: relative; */
 }
+._form_40 {
+  font-family: "Ariel";
+}
 
 .HomeWrapper,
 .DonateWrapper,
@@ -241,6 +244,7 @@ p {
 
 .DSLogo {
   font-family: "Cooper Black";
+  font-size: 3.5vw;
 }
 /* media queries */
 
@@ -263,6 +267,9 @@ p {
     font-family: "Univers";
     font-size: 2rem;
     padding: 10px;
+  }
+  .DSLogo {
+    font-size: 5vw;
   }
 }
 

@@ -10,139 +10,201 @@
   font-family: "Univers";
   src: url("./fonts/UniversLTStd.otf");
 }
-
+.TitleWrapper {
+  width: 100%;
+  text-align: left;
+}
+.Title {
+  margin-top: 2vh;
+  margin-left: 1rem;
+  font-family: "Cooper Black";
+}
 .AboutWrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: left;
-  text-align: center;
-  min-height: calc(200vh - 34px);
+  display: block;
+  flex-direction: row;
+  min-height: calc(100vh - 34px);
   height: auto;
-  max-width: 100%;
+  max-width: 99%;
   min-width: fit-content;
-
-  /* overflow-y: auto; */
+}
+.InnerWrapper {
+  height: auto;
+  width: auto;
 }
 .PresImg {
-  height: 150vh;
-  width: 30%;
-  background-image: url("./images/PresentDudeLong.svg");
-  background-repeat: no-repeat;
-  background-size: scale-down;
-  background-position: bottom;
-  position: absolute;
-  left: 0;
-  top: 50%;
-  z-index: -1;
-}
-.AboutSection {
-  height: 100vh;
+  height: 100%;
   width: 100%;
+  background-image: url("./images/present_top.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
 }
-.OuterFlex1 {
+.ImgWrapper {
+  height: 30vh;
+  margin-top: 3em;
+}
+.CopyWrapper {
+  height: auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  text-align: left;
-  margin-left: auto;
-  width: 70%;
-  margin-top: 10vh;
-  height: 80%;
+  width: 100%;
+  margin: auto;
 }
-.OuterFlex2 {
+.HeadingWrapper {
   display: flex;
-  flex-direction: row;
-  justify-content: baseline;
-  text-align: left;
-  margin-left: auto;
-  width: 70%;
-  margin-top: 6vh;
-  height: 90%;
+  width: auto;
+  justify-content: bas;
+  height: 3vh;
+  padding-left: 1em;
+  margin: 0;
 }
-.InnerFlex1 {
-  display: flex;
-  flex-direction: column;
-}
-.InnerFlex1 h1 {
+.HeadingWrapper h1 {
   font-family: "Cooper Black";
-  font-size: 4vw;
+  font-size: 1.8rem;
+  margin-right: 0.6em;
 }
-.TextFlex {
-  display: flex;
-  flex-direction: row;
-  margin-left: 3vw;
-}
-.TextFlex h1 {
-  font-family: "Cooper Black";
-  margin-right: 10px;
-  font-size: 4vw;
-}
-.TextFlex p {
+.HeadingWrapper h3 {
   font-family: "Univers";
   font-size: smaller;
 }
-.InnerFlex2 {
-  display: flex;
-  flex-direction: row;
-  margin: auto;
-  height: 20vh;
-  width: 80%;
-}
-.InnerFlex2 p {
-  font-family: "Univers";
-  padding: 4rem;
-}
-.OuterGrid {
-  display: flex;
-  flex-wrap: no-wrap;
-  padding: 0 4px;
+.MobileCopy {
   width: 100%;
-}
-.ImageGrid {
   margin: auto;
 }
-.ImageGrid img {
-  padding: 0 4px;
-  width: 20vw;
+.MobileCopy p {
+  font-family: "Univers";
+  margin: auto;
+  width: 90%;
+}
+.MobileCopy img {
+  width: 100%;
+  padding: 1em;
+}
+.CopyWrapper p {
+  font-family: "Univers";
+  margin: auto;
+  width: 90%;
+  padding: 1em;
+}
+.ReasonsWhy {
+  width: 99%;
   height: auto;
 }
-.OuterFlexSection2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: baseline;
-  margin-left: -5vw;
-}
-.InnerFlexSec2 {
-  width: 90%;
-}
-.InnerFlexSec2 p {
+.h1Outline {
+  -webkit-text-stroke: 0.1px black;
   font-family: "Univers";
-  /* padding: 5rem; */
-  width: 80%;
+  font-size: 4em;
+  margin-left: 0.3em;
+  color: white;
 }
-.TextFlexWhy {
-  margin-left: -10vw;
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  flex-direction: row;
+.RibbonFeetContainer {
+  height: 60vh;
+  width: 100%;
+}
+.RibbonFeet {
+  height: 100%;
+  background-image: url(./images/ToyDrive2021_PresentDudeLong_Bottom.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+}
+.TabletPictures {
+  display: none;
 }
 
-.TextFlexWhy h1 {
-  margin-right: 10px;
+/* MEDIA QUEERIES  */
+
+@media screen and (min-width: 760px) {
+  .TitleWrapper,
+  .Title,
+  .MobileCopy,
+  .RibbonFeetContainer,
+  .ImgWrapper {
+    display: none;
+  }
+  .AboutWrapper {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .InnerWrapper {
+    width: 60%;
+    height: 100%;
+    margin-top: 10vh;
+    margin-left: auto;
+  }
+  .CopyWrapper {
+    width: 80%;
+  }
+  .CopyWrapper p {
+    font-size: 1.5rem;
+    /* padding: 0; */
+  }
+  .CopyWrapper h1 {
+    font-size: 2rem;
+    /* padding-bottom: 2rem; */
+  }
+  .CopyWrapper h3 {
+    font-size: 1.5rem;
+  }
+  .ReasonsWhy h1 {
+    font-size: 6rem;
+  }
+  .TabletPictures {
+    display: block;
+    height: auto;
+    width: 40%;
+    justify-content: center;
+    margin-left: 5vw;
+    margin-top: 10vh;
+  }
+  .TabletPictures img {
+    width: 100%;
+  }
+  .PresentTablet {
+    height: 80vh;
+    width: 100%;
+    background-image: url(./images/PresentDudeLong.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }
-.TextFlexWhy p {
-  font-family: "Univers";
-  margin-right: 2rem;
-}
-.InnerFlexSec3 {
-  width: 90%;
-  align-items: center;
-}
-.InnerFlexSec3 p {
-  font-family: "Univers";
-  /* padding: 5rem; */
-  width: 80%;
+
+@media screen and (min-width: 1080px) {
+  .TabletPictures img {
+    display: none;
+  }
+  .TabletPictures {
+    height: 200vh;
+    margin-top: 40vh;
+  }
+  .PresentTablet {
+    height: 80%;
+  }
+  .InnerWrapper {
+    width: 70%;
+    margin-top: 40vh;
+  }
+  .CopyWrapper h1 {
+    font-size: 4rem;
+    padding-bottom: 4rem;
+  }
+  .CopyWrapper p {
+    padding: 3em;
+  }
+  .ReasonsWhy {
+    display: flex;
+    max-width: 80vw;
+    margin-top: 5vh;
+  }
+  .ReasonsWhy h1 {
+    font-size: 9rem;
+    -webkit-text-stroke: 3px black;
+  }
+  .ReasonsWhy p {
+    padding: 2rem;
+  }
+  .WhyInnerWrapper {
+    width: 100%;
+  }
 }
