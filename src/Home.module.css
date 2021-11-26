@@ -164,7 +164,7 @@
   }
   .TitleWrapper {
     display: block;
-    margin-top: 2vh;
+    margin-top: 3vh;
     width: 100%;
     text-align: left;
   }
@@ -176,7 +176,8 @@
   }
   .PresentWrapper {
     background-image: url(./images/PresentDudePurp-03.svg);
-    background-position: center;
+    background-position: top;
+    margin:0;
   }
   .PresentTextWrapper {
     max-width: 60%;
