@@ -102,7 +102,7 @@
   height: auto;
 }
 .h1Outline {
-  -webkit-text-stroke: 0.1px black;
+  -webkit-text-stroke: 0.3px black;
   font-family: "Univers";
   font-size: 4em;
   margin-left: 0.3em;
@@ -125,7 +125,7 @@
 
 /* MEDIA QUEERIES  */
 
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 770px) {
   .TitleWrapper,
   .Title,
   .MobileCopy,
@@ -149,11 +149,9 @@
   }
   .CopyWrapper p {
     font-size: 1.5rem;
-    /* padding: 0; */
   }
   .CopyWrapper h1 {
     font-size: 2rem;
-    /* padding-bottom: 2rem; */
   }
   .CopyWrapper h3 {
     font-size: 1.5rem;

@@ -66,7 +66,7 @@ body {
   font-family: "Univers";
   color: #f86149;
   font-size: 4rem;
-  padding: 0 10 20 20;
+  /* padding: 0 10 20 20; */
 }
 .DSLogoSide {
   font-family: "Cooper Black";
@@ -146,16 +146,16 @@ body {
     color: #f86149;
     font-size: 2.5rem;
     margin-bottom: 2em;
-    /* padding: 0 10 20 20; */
   }
   .DSLogoSide {
     font-family: "Cooper Black";
-    position: absolute;
-    top: 3vh;
-    font-size: 2rem;
-    margin-bottom: 2vh;
+    /* position: absolute; */
+    margin-top: vh;
+    font-size: 8vw;
     color: white;
+    margin-bottom: 5vh;
   }
+
   .FooterFlex p {
     font-family: "Univers";
     text-align: right;

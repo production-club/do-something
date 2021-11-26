@@ -86,6 +86,7 @@
 
 .DonateTextWrapper {
   margin-bottom: 5vh;
+  padding:1em;
 }
 .DonateTextWrapper p {
   font-family: "Univers";
@@ -199,7 +200,7 @@
   }
   .HomeTextInnerWrapper p {
     font-family: "Univers";
-    font-size: 0.9rem;
+    font-size: 1em;
     width: 100%;
     justify-content: space-between;
   }
