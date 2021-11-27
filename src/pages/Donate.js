@@ -25,8 +25,6 @@ const Donate = () => {
           seamless="seamless"
           frameborder="0"
           scrolling="no"
-          // height="300px"
-          // width="100%"
           style={{
             maxWidth: 900,
             minWidth: 320,

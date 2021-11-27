@@ -21,7 +21,6 @@ const Navbar = ({ toggle }) => {
             <NavLink to="/contact" className="NavLink">
               Contact
             </NavLink>
-            {/* <NavLink to="/volunteer">Volunteer</NavLink> */}
           </NavMenu>
         </Nav>
       </div>

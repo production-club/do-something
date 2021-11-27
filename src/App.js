@@ -6,7 +6,6 @@ import Home from "./pages/Home";
 import Donate from "./pages/Donate";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
-import Volunteer from "./pages/Volunteer";
 import Sidebar from "./components/Navbar/Sidebar";
 import Thankyou from "./pages/Thankyou";
 
@@ -26,7 +25,6 @@ function App() {
         <Route path="/donate" element={<Donate />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
-        <Route path="/volunteer" element={<Volunteer />} />
         <Route path="/thankyou" element={<Thankyou />} />
       </Routes>
     </div>
