@@ -13,17 +13,17 @@ const About = () => {
           <h1 className={styles.Title}>Do Something. </h1>
         </div>
         <Helmet>
+        <title>A Little About Us! </title>
           <meta name="description" content="About Section of Do Something LA" />
           <meta name="keywords" content="About, Do Something" />
         </Helmet>
-        <title>A Little About Us! </title>
         <div className={styles.ImgWrapper}>
           <div className={styles.PresImg} />
         </div>
         <div className={styles.CopyWrapper}>
           <div className={styles.HeadingWrapper}>
             <h1>Last Year</h1>
-            <h3>(2020)</h3>
+            <h2>(2020)</h2>
           </div>
           <p className={styles.TabletP}>
             {" "}
@@ -75,7 +75,7 @@ const About = () => {
           <div className={styles.HeadingWrapper}>
             <div className={styles.HeadingFlex}></div>
             <h1>This Year</h1>
-            <h3>(2021)</h3>
+            <h2>(2021)</h2>
           </div>
           <p>
             We want to double the amount of families we reach, so we’re starting
@@ -86,7 +86,7 @@ const About = () => {
           <div className={styles.WhyWrapper}>
             <div className={styles.HeadingWrapper}>
               <h1>Why?</h1>
-              <h3>(Beyond)</h3>
+              <h2>(Beyond)</h2>
             </div>
             <p>
               We have an ambitious goal we will be working towards each year

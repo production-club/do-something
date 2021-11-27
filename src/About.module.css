@@ -74,7 +74,7 @@
   font-size: 1.8rem;
   margin-right: 0.6em;
 }
-.HeadingWrapper h3 {
+.HeadingWrapper h2 {
   font-family: "Univers";
   font-size: smaller;
 }
@@ -153,8 +153,8 @@
   .CopyWrapper h1 {
     font-size: 2rem;
   }
-  .CopyWrapper h3 {
-    font-size: 1.5rem;
+  .CopyWrapper h2 {
+    font-size: 1.3rem;
   }
   .ReasonsWhy h1 {
     font-size: 6rem;
@@ -206,9 +206,6 @@
     width: 55vw;
     margin-left: -3vw;
     height: auto;
-  }
-  .HeadingWrapper:first-child {
-    margin-left: -5vw;
   }
 
   .TabletPictures {
