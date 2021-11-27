@@ -7,6 +7,7 @@ const Home = () => {
   return (
     <div className={styles.HomeWrapper}>
       <Helmet>
+        <title> Do Something’s Annual Toy Giveaway!</title>
         <meta name="description" content="Home Section of Do Something LA" />
         <meta
           name="keywords"
