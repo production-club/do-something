@@ -10,7 +10,7 @@ const Contact = () => {
         <h1 className={styles.Title}>Do Something. </h1>
       </div>
       <Helmet>
-        {/* <title>Contact </title> */}
+        <title> Contact Us!</title>
         <meta name="description" content="Contact Page of Do Something LA" />
         <meta name="keywords" content="Contact, Do Something, Email, Address" />
       </Helmet>

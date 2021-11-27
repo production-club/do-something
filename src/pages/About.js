@@ -16,6 +16,7 @@ const About = () => {
           <meta name="description" content="About Section of Do Something LA" />
           <meta name="keywords" content="About, Do Something" />
         </Helmet>
+        <title>A Little About Us! </title>
         <div className={styles.ImgWrapper}>
           <div className={styles.PresImg} />
         </div>
