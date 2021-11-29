@@ -14,9 +14,7 @@ const Home = () => {
           content="Home, Do Something, landing page, donate button"
         />
       </Helmet>
-      <div className={styles.TitleWrapper}>
-        <h1 className={styles.Title}>Do Something. </h1>
-      </div>
+
       <div className={styles.PresentWrapper}>
         <div className={styles.PresentTextWrapper}>
           <h1>Annual Toy Giveaway </h1>

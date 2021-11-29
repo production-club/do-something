@@ -176,8 +176,8 @@
   }
   .PresentWrapper {
     background-image: url(./images/PresentDudePurp-03.svg);
-    background-position: top;
-    margin:0;
+    background-position: center;
+    margin-top:10;
   }
   .PresentTextWrapper {
     max-width: 60%;
@@ -186,6 +186,7 @@
     justify-content: center;
     margin: auto;
   }
+  
   .PresentTextWrapper h1 {
     font-family: "Cooper Black";
     font-size: 2rem;

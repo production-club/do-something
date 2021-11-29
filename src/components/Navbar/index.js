@@ -8,7 +8,7 @@ const Navbar = ({ toggle }) => {
         <Nav>
           <NavLink to="/">
             {" "}
-            <h1 className="DSLogo"> Do Something.</h1>
+            <div className="svgDiv"/>
           </NavLink>
           <Bars onClick={toggle} />
           <NavMenu>
@@ -21,7 +21,7 @@ const Navbar = ({ toggle }) => {
             <NavLink to="/contact" className="NavLink">
               Contact
             </NavLink>
-            <NavLink to="/" exact className="NavLink">
+           <NavLink to="/" exact className="NavLink">
               Home
             </NavLink>
           </NavMenu>

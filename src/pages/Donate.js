@@ -5,9 +5,7 @@ import styles from "../Donate.module.css";
 const Donate = () => {
   return (
     <div className={styles.DonateWrapper}>
-      <div className={styles.TitleWrapper}>
-        <h1 className={styles.Title}>Do Something. </h1>
-      </div>
+   
       <Helmet>
         <title> Donation Page!</title>
         <meta name="description" content="Donate Section of Do Something LA" />

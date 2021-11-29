@@ -9,9 +9,7 @@ const About = () => {
   return (
     <div className={styles.AboutWrapper}>
       <div className={styles.InnerWrapper}>
-        <div className={styles.TitleWrapper}>
-          <h1 className={styles.Title}>Do Something. </h1>
-        </div>
+
         <Helmet>
         <title>A Little About Us! </title>
           <meta name="description" content="About Section of Do Something LA" />
