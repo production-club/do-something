@@ -22,8 +22,7 @@ const Home = () => {
           <h1>Annual Toy Giveaway </h1>
           <p>
             {" "}
-            December 18th, 2021. 6pm - 9pm. <br /> 1725 Naud St, Los Angeles, CA
-            90012
+            December 18th, 2021. 6pm - 9pm. <br /> Location TBA
           </p>
         </div>
       </div>

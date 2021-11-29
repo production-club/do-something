@@ -47,7 +47,10 @@ body {
   min-width: fit-content;
   overflow-y: auto;
 }
+.tyImage{
 
+  padding:3rem;
+}
 .NavLink {
   font-family: "Univers";
 }
@@ -162,5 +165,8 @@ body {
     font-size: 0.6em;
     padding: 2em;
     /* width: 40%; */
+  }
+  .tyImage{
+    padding:0;
   }
 }
