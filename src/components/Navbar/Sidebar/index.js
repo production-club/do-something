@@ -20,18 +20,18 @@ const Sidebar = ({ toggle, isOpen }) => {
           Do Something.
         </SidebarLink>
         <SidebarMenu>
+          <SidebarLink to="/about" onClick={toggle} className="SidebarLink">
+            About
+          </SidebarLink>
           <SidebarLink to="/donate" onClick={toggle} className="SidebarLink">
             Donate
           </SidebarLink>
           <SidebarLink to="/contact" onClick={toggle} className="SidebarLink">
             Contact
           </SidebarLink>
-          <SidebarLink to="/about" onClick={toggle} className="SidebarLink">
-            About
+           <SidebarLink to="/donate" onClick={toggle} className="SidebarLink">
+            Home
           </SidebarLink>
-          {/* <SidebarLink to="/volunteer" onClick={toggle}>
-            Volunteer
-          </SidebarLink> */}
         </SidebarMenu>
       </SidebarWrapper>
     </SidebarContainer>

@@ -21,6 +21,9 @@ const Navbar = ({ toggle }) => {
             <NavLink to="/contact" className="NavLink">
               Contact
             </NavLink>
+               <NavLink to="/" exact className="NavLink">
+              Home
+            </NavLink>
           </NavMenu>
         </Nav>
       </div>
