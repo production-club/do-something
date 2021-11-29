@@ -9,7 +9,7 @@ const About = () => {
   return (
     <div className={styles.AboutWrapper}>
       <div className={styles.InnerWrapper}>
-
+    
         <Helmet>
         <title>A Little About Us! </title>
           <meta name="description" content="About Section of Do Something LA" />
@@ -75,17 +75,22 @@ const About = () => {
             <h1>This Year</h1>
             <h2>(2021)</h2>
           </div>
+          <div className={styles.alignP}>
+
           <p>
             We want to double the amount of families we reach, so we’re starting
             earlier to source gifts and get the word out about the toy giveaway.
             To make those things happen we’re asking for donations from the
             public.
           </p>
+          </div>
           <div className={styles.WhyWrapper}>
             <div className={styles.HeadingWrapper}>
               <h1>Why?</h1>
               <h2>(Beyond)</h2>
             </div>
+            <div className={styles.alignP}>
+
             <p>
               We have an ambitious goal we will be working towards each year
               from here on out: No kid in LA without a yearly toy.
@@ -94,6 +99,7 @@ const About = () => {
               <br />
               We’re aiming for this because of two main reasons:
             </p>
+            </div>
           </div>
           <div className={styles.ReasonsWhy}>
             <div className={styles.WhyInnerWrapper}>

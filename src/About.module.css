@@ -227,8 +227,11 @@
     padding-bottom: 4rem;
   }
   .CopyWrapper p {
-    padding: 3em;
+    padding: 3em 1em;
   }
+.alignP{
+  margin-left: -5vw;
+}
   .ReasonsWhy {
     display: flex;
     max-width: 80vw;
@@ -236,10 +239,10 @@
   }
   .ReasonsWhy h1 {
     font-size: 9rem;
-    -webkit-text-stroke: 3px black;
+    -webkit-text-stroke: 1px black;
   }
   .ReasonsWhy p {
-    padding: 2rem;
+    padding: 1em 0.5em;
   }
   .WhyInnerWrapper {
     width: 100%;
