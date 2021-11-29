@@ -13,7 +13,7 @@
 
 .ContactWrapper {
   display: block;
-  min-height: calc(100vh - 34px);
+  min-height: calc(90vh - 34px);
   height: auto;
   max-width: 100%;
   min-width: fit-content;
@@ -34,7 +34,7 @@
 .leftContactPanel {
   display: block;
   background-color: rgba(255, 243, 225, 255);
-  height: 100vh;
+  height: 90vh;
   width: 50vw;
   background-image: url(./images/PresentDudeWide-960.svg);
   background-repeat: no-repeat;
@@ -83,27 +83,20 @@
     height: 50vh;
   }
   .leftContactPanel h1 {
-    font-size: 9vw;
+    font-size: 7vw;
     margin-top: 2vh;
+
   }
 }
 
 @media screen and (max-width: 768px) {
-  .TitleWrapper {
-    display: block;
-    width: 100%;
-    margin-top: 1vh;
-    text-align: left;
-  }
-  .Title {
-    margin-top: 2vh;
-    font-size: 7vw;
-    margin-left: 1rem;
-    font-family: "Cooper Black";
-  }
+
   .leftContactPanel h1 {
     font-size: 12vw;
     margin-top: 2vh;
+  }
+  .leftContactPanel {
+    height: 40vh;
   }
   .ContactCopy h3 {
     font-family: "Univers";
