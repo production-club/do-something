@@ -151,15 +151,16 @@
   color: black;
   font-size: 1rem;
 }
-@media screen and (max-width: 1280px){
-  .tabletpres{
-    display: none;
-  }
-  .desktoppres{
-    display:block;
-  }
 
-
+@media only screen 
+   and (max-width : 900px) 
+   and (max-height : 1440px) {
+   .tabletpres{
+     display: none;
+   }
+   .desktoppres{
+     display: block;
+   }
 }
 
 @media screen and (max-width: 1024px) {
@@ -181,7 +182,9 @@
   font-size: 3vw;
   font-weight: 100;
   padding: 1em 4em;
-  
+  }
+  .PresentTextWrapper{
+    margin-top: 30vh;
   }
   .PresentTextWrapper p {
     font-family: "Univers";
@@ -192,55 +195,49 @@
     font-size: 2rem;
     padding: 10px;
   }
-}
-@media screen and (max-width: 1450px) {
-
-  .PresentTextWrapper{
-    margin-top: 36vw;
-  }
-  .PresentTextWrapper h1 {
+    .PresentTextWrapper h1 {
     font-family: "Cooper Black";
     font-size: 7vw;
   }
-  .desktoppres{
-    display:none;
-  }
-  .tabletpres{
-    display: block;
-    width:80%;
-    height:auto;
-    align-items: center;
-    margin: auto;
-    margin-top: 40vw;
-    margin-bottom: 5vh;
-    transform: scale(1.2,1.2);
-  }
-    .PresentTextWrapper h2{
+
+
+.PresentTextWrapper h2{
   font-family: 'Univers';
   font-size: 3vw;
   font-weight: 100;
   padding: 1.5em  4em;
-  
-  }
-  .PresImgWrapper{
-    margin-top: -15vw;
-  }
+
+  } 
+
   .PresentTextWrapper p {
     font-family: "Univers";
     font-size: 4vw;
+  }
+
+} 
+@media screen and (max-width: 1281px) {
+
+  PresentTextWrapper{
+    margin-top: 40vw;
   }
   .HomeTextInnerWrapper{
     display: flex;
     flex-direction: column;
     text-align: center;
+  } 
+  .PresentWrapper{
+    margin-top: 4vh;
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 760px) {
   .DonateButton {
     width: 90vw;
   }
   .tabletpres{
+    display:none;
+  }
+  .desktoppres{
     display:none;
   }
   .phonepres{
@@ -251,6 +248,7 @@
   .PresImgWrapper {
     margin-top:10vh;
     width:100%;
+    
   }
 
   .PresentTextWrapper {
@@ -268,7 +266,7 @@
   font-family: 'Univers';
   font-size: 3.5vw;
   font-weight: 100;
-  padding: 1.5em 2em;
+  padding: 1em 4em;
   
   }
   .PresentTextWrapper p {
