@@ -31,7 +31,6 @@ const Donate = () => {
             minWidth: 320,
             maxHeight: "none!important",
             minHeight: 1200,
-            // marginTop: 150,
             marginBottom: 20
           }}
         ></iframe>

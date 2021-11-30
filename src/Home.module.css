@@ -191,6 +191,11 @@
     font-family: "Univers";
     font-size: 4vw;
   }
+  .HomeTextInnerWrapper{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -230,10 +235,15 @@
     width: 100%;
     margin-top: 5vh;
   }
+  .HomeTextInnerWrapper {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+  }
   .HomeTextInnerWrapper p {
     font-family: "Univers";
     font-size: 3.5vw;
-    padding:0 10px;
+    padding:10px 10px;
     width: 100%;
     justify-content: space-between;
   }

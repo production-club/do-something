@@ -36,8 +36,8 @@ const Home = () => {
         <div className={styles.HomeTextInnerWrapper}>
           <p>
             A toy giveaway just in time for the holidays for low-income families
-            who need gifts for their children. <br /> The toys are for kids aged
-            3 months to 18 years.
+            who need gifts for their children. <br /> <br/>The toys are for kids aged
+            3 months to 18 years. <br/>
           </p>
 
           <p>
