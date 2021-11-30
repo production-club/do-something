@@ -112,7 +112,7 @@ height:10vh;
 .FooterFlex p {
   font-family: "Univers";
   text-align: right;
-  font-size: 1em;
+  font-size: 1.5vw;
 }
 
 .DSLogo {
@@ -168,7 +168,7 @@ height:10vh;
   .FooterFlex p {
     font-family: "Univers";
     text-align: right;
-    font-size: 0.6em;
+    font-size: 2vw;
     padding: 2em;
     /* width: 40%; */
   }

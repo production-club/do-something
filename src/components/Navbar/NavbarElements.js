@@ -33,7 +33,7 @@ export const Bars = styled(FaBars)`
   display: none;
   color: #f86149;
 
-  @media screen and (max-width: 770px) {
+  @media screen and (max-width: 781px) {
     display: block;
     position: absolute;
     top: 15px;
@@ -48,7 +48,7 @@ export const NavMenu = styled.div`
   align-items: center;
   margin-right: -24px;
 
-  @media screen and (max-width: 770px) {
+  @media screen and (max-width: 781px) {
     display: none;
   } ;
 `;
