@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="FooterFlex">
         <p>
           Do Something was founded by members of <br />
-          <a href ="https://www.production.club">production.club</a> and is currently supported by them.
+          <a href ="https://www.production.club" target="_blank" rel="noreferrer">production.club</a> and is currently supported by them.
         </p>
         <p>© Do Something 2021 </p>
       </div>
