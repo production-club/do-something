@@ -5,6 +5,9 @@ import styles from "../Home.module.css";
 import presBody from "../images/presentBodyFlex.svg"
 import presFace from "../images/presentFaceFlex.svg"
 import presFeet from "../images/presentFeetFlex.svg"
+import desktop from "../images/PresentDudePurp-01.svg"
+import tablet from "../images/PresentDudePurp-02.svg"
+import phone from "../images/PresentDudePurp-03.svg"
 
 const Home = () => {
   return (
@@ -20,9 +23,12 @@ const Home = () => {
 
       <div className={styles.PresentWrapper}>
         <div className={styles.PresImgWrapper}>
-        <img src= {presBody} alt ="present body" className={styles.PresBody}/>
-        <img src= {presFace} alt ="present face" className={styles.PresFace}/>
-        <img src= {presFeet} alt ="present feet" className={styles.PresFeet}/>
+          <img src= {desktop} className={styles.desktoppres} />
+          <img src= {tablet} className={styles.tabletpres} />
+          <img src= {phone} className={styles.phonepres} />
+        {/* <img src= {presBody} alt ="present body" className={styles.PresBody}/> */}
+        {/* <img src= {presFace} alt ="present face" className={styles.PresFace}/> */}
+        {/* <img src= {presFeet} alt ="present feet" className={styles.PresFeet}/> */}
         </div>
         <div className={styles.PresentTextWrapper}>
           <h1>Annual Toy Giveaway </h1>
