@@ -28,6 +28,7 @@
   height: auto;
   max-width: 99%;
   min-width: fit-content;
+
 }
 .InnerWrapper {
   height: auto;
@@ -135,7 +136,7 @@
   .InnerWrapper {
     width: 60%;
     height: 100%;
-    margin-top: 7.5vh;
+    margin-top: 10vh;
     margin-left: auto;
   }
   .CopyWrapper {
@@ -207,14 +208,14 @@
 
   .TabletPictures {
     height: 200vh;
-    margin-top: 40vh;
+    margin-top: 20vh;
   }
   .PresentTablet {
     height: 80%;
   }
   .InnerWrapper {
     width: 70%;
-    margin-top: 32vh;
+    margin-top: 20vh;
   }
   .CopyWrapper h1 {
     font-size: 4rem;

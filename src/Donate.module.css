@@ -23,7 +23,7 @@
   min-width: fit-content;
   overflow-y: auto;
   align-items: center;
-  margin-top: 20vh;
+  margin-top: 12vh;
   background-image: url('./images/DoSomething_DonatePage_Graphic_1920.svg');
   background-repeat: no-repeat;
   background-position: bottom;
@@ -31,7 +31,7 @@
 }
 
 .DonorCTA{
-  margin-bottom: 5vh;
+  margin-bottom: 3vh;
   padding:1em;
   width:40vw;
 }
@@ -40,8 +40,6 @@
   width: 40%;
   margin: auto;
   text-align: center;
-  /* margin-bottom: 5vh; */
-  
 }
 .DonorContent p {
   font-family: "Univers";
