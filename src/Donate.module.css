@@ -17,29 +17,30 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  min-height: calc(90vh - 34px);
+  min-height: calc(100vh - 34px);
   height: auto;
   max-width: 100%;
   min-width: fit-content;
   overflow-y: auto;
   align-items: center;
-  margin-top: 5rem;
-
-}
-
-.DonateWrapper{
+  margin-top: 20vh;
   background-image: url('./images/DoSomething_DonatePage_Graphic_1920.svg');
   background-repeat: no-repeat;
   background-position: bottom;
+
 }
 
+
+
 .DonorContent {
-  width: 50%;
-  /* margin: auto; */
+  width: 40%;
+  margin: auto;
   text-align: center;
-  margin-bottom: 5vh;
+  /* margin-bottom: 5vh; */
+  
 }
 .DonorContent p {
   font-family: "Univers";
+  margin-bottom: 10vh;
 }
 

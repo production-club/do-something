@@ -23,7 +23,10 @@
   min-width: fit-content;
   overflow-y: auto;
 }
-
+.PresImgWrapper{
+  display:block;
+  margin-top: 5vh;
+}
 .TitleWrapper {
   display: none;
 }
@@ -33,20 +36,37 @@
 
 .PresentWrapper {
   width: 100%;
-  min-height: 123vh;
+  width:100%;
+  /* min-height: 123vh;
 
   background-image: url(./images/PresentDudePurp-01.svg);
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: center 20px;
+  background-position: center 20px; */
   display: flex;
   /* margin-bottom: 5vh; */
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
+}
+.PresBody{
+  z-index: -2;
+  position: absolute;
+  top:20;
+  margin: 0 20px;
+}
+.PresFeet{
+  display: block;
+  position: absolute;
+  top:0;
+  margin-top: 3vh;
+  z-index: -20;
 }
 .PresentTextWrapper {
+  position: absolute;
+  top:20;
   width: 100%;
-  height: auto;
+  z-index: 3;
+  padding-top: 20vw;
 }
 
 .PresentTextWrapper h1 {
@@ -121,10 +141,10 @@
 
 @media screen and (max-width: 1024px) {
   .PresentWrapper {
-    background-image: url(./images/PresentDudePurp-02.svg);
+    /* background-image: url(./images/PresentDudePurp-02.svg);
     background-position: center;
-    background-size: contain;
-    margin-top: 50px;
+    background-size: contain; */
+    /* margin-top: 50px; */
   }
   .PresentTextWrapper h1 {
     font-family: "Cooper Black";
@@ -142,10 +162,10 @@
 }
 @media screen and (max-width: 1450px) {
   .PresentWrapper {
-    background-image: url(./images/PresentDudePurp-02.svg);
+    /* background-image: url(./images/PresentDudePurp-02.svg);
     background-position: center;
-    background-size: contain;
-    margin-top: 10vh;
+    background-size: contain; */
+    margin-top: 5vh;
   }
   .PresentTextWrapper h1 {
     font-family: "Cooper Black";
@@ -162,23 +182,17 @@
   .DonateButton {
     width: 90vw;
   }
-  .TitleWrapper {
-    display: block;
-    margin-top: 3vh;
-    width: 100%;
-    text-align: left;
-  }
-  .Title {
-    margin-top: 2vh;
-    font-size: 7vw;
-    margin-left: 1rem;
-    font-family: "Cooper Black";
-  }
+
   .PresentWrapper {
-    background-image: url(./images/PresentDudePurp-03.svg);
-    background-position: center;
     margin-top:10;
   }
+
+ .PresBody{
+    transform: scale(1,3);
+   
+  
+  }
+  
   .PresentTextWrapper {
     max-width: 60%;
     text-align: center;

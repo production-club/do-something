@@ -14,17 +14,7 @@
   font-family: "Univers Lite";
   src: url("./fonts/UniversLTStd-ThinUltraCn.otf");
 }
-.TitleWrapper {
-  width: 100%;
-  margin-top: 1vh;
-  text-align: left;
-}
-.Title {
-  margin-top: 2vh;
-  font-size: 7vw;
-  margin-left: 1rem;
-  font-family: "Cooper Black";
-}
+
 .HomePFlex {
   display: none;
 }
@@ -238,22 +228,18 @@
 }
   .ReasonsWhy {
     display: flex;
-    margin-left: -5vw;
+    margin-left: -3vw;
     max-width: 80vw;
     margin-top: 5vh;
   }
   .ReasonsWhy h1 {
-    font-size: 9rem;
-    font-family: 'Univers';
+    font-size: 7.9rem;
     color:white;
-    text-shadow: -1px 1px 0 #000,
-				  1px 1px 0 #000,
-				 1px -1px 0 #000,
-				-1px -1px 0 #000;
+  -webkit-text-stroke: 0.06px black;
 
   }
   .ReasonsWhy p {
-    padding: 1em;
+    padding: 1em ;
     margin-top: -10vh;
     margin-bottom: 10vh;
   }
