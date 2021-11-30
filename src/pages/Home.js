@@ -25,10 +25,13 @@ const Home = () => {
           <img src= {phone} className={styles.phonepres} alt= "phone present"/>
         </div>
         <div className={styles.PresentTextWrapper}>
-          <h1>Annual Toy Giveaway </h1>
+          <h1> Do Something's <br/>Annual Toy Giveaway </h1>
+          <h2>A gift giveaway for children and families from underserved communities. Presents are curated with playful education and growth in mind.</h2>
           <p>
-            {" "}
-            December 18th, 2021. 6pm - 9pm. <br /> Location TBA
+          
+           <p style={{color:'white', fontWeight:'bold'}}>
+              6pm - 9pm <br/> December 18th, 2021
+             </p>  Chinatown, Los Angles <br /> Location To Be Announced
           </p>
         </div>
       </div>

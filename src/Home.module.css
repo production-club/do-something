@@ -66,17 +66,29 @@
   top:20;
   width: 100%;
   z-index: 3;
-  padding-top: 20vw;
+  padding-top: 18vw;
 }
 
 .PresentTextWrapper h1 {
   font-family: "Cooper Black";
-  font-size: 5vw;
-  padding: 10px;
+  font-size: 4vw;
+  color: #252126;
+  /* padding: 5px; */
 }
 .PresentTextWrapper p {
   font-family: "Univers";
-  font-size: 3vw;
+  font-size: 2.5vw;
+  margin-top: 0.5em;  color: #252126;
+
+}
+.PresentTextWrapper h2{
+  font-family: 'Univers';
+  font-size: 2vw;
+  font-weight: 100;
+  padding: 0em 4em;
+    color: #252126;
+
+
 }
 .HomeTextOuterWrapper {
   display: flex;
@@ -103,6 +115,7 @@
   font-size: 1.5rem;
   padding: 30px;
 }
+
 
 .DonateTextWrapper {
   margin-bottom: 5vh;
@@ -138,6 +151,16 @@
   color: black;
   font-size: 1rem;
 }
+@media screen and (max-width: 1280px){
+  .tabletpres{
+    display: none;
+  }
+  .desktoppres{
+    display:block;
+  }
+
+
+}
 
 @media screen and (max-width: 1024px) {
 
@@ -145,12 +168,20 @@
     display: block;
     width:100%;
   }
+
   .desktoppres{
     display:none;
   }
   .PresentTextWrapper h1 {
     font-family: "Cooper Black";
-    font-size: 5vw;
+    font-size: 3vw;
+  }
+    .PresentTextWrapper h2{
+  font-family: 'Univers';
+  font-size: 3vw;
+  font-weight: 100;
+  padding: 1em 4em;
+  
   }
   .PresentTextWrapper p {
     font-family: "Univers";
@@ -165,11 +196,11 @@
 @media screen and (max-width: 1450px) {
 
   .PresentTextWrapper{
-    margin-top: 30vw;
+    margin-top: 36vw;
   }
   .PresentTextWrapper h1 {
     font-family: "Cooper Black";
-    font-size: 9vw;
+    font-size: 7vw;
   }
   .desktoppres{
     display:none;
@@ -180,9 +211,16 @@
     height:auto;
     align-items: center;
     margin: auto;
-    margin-top: 23vw;
-
-    /* transform: scale(0.7,0.7); */
+    margin-top: 40vw;
+    margin-bottom: 5vh;
+    transform: scale(1.2,1.2);
+  }
+    .PresentTextWrapper h2{
+  font-family: 'Univers';
+  font-size: 3vw;
+  font-weight: 100;
+  padding: 1.5em  4em;
+  
   }
   .PresImgWrapper{
     margin-top: -15vw;
@@ -217,18 +255,27 @@
 
   .PresentTextWrapper {
     align-items: center;
-    margin-top: 60vw;
+    margin-top: 75vw;
     justify-content: center;
   }
   
   .PresentTextWrapper h1 {
     font-family: "Cooper Black";
-    font-size: 10vw;
+    font-size: 6vw;
+    padding:0 2em;
+  }
+    .PresentTextWrapper h2{
+  font-family: 'Univers';
+  font-size: 3.5vw;
+  font-weight: 100;
+  padding: 1.5em 2em;
+  
   }
   .PresentTextWrapper p {
     font-family: "Univers";
     font-size: 5vw;
     padding: 0.5em;
+    margin-top: 0;
   }
   .HomeTextOuterWrapper {
     height:auto;
