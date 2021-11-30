@@ -49,6 +49,38 @@ const Home = () => {
           </p>
         </div>
       </div>
+          <div className={styles.WhyWrapper}>
+            <div className={styles.HeadingWrapper}>
+              <h1>Why?</h1>
+            </div>
+            <div className={styles.alignP}>
+            <p>
+              We have an ambitious goal we will be working towards each year
+              from here on out: No kid in LA without a yearly toy.
+              <br />
+              
+              <br />
+              We’re aiming for this because of two main reasons:
+            </p>
+            </div>
+          </div>
+          <div className={styles.ReasonsWhy}>
+            <div className={styles.WhyInnerWrapper}>
+              <h1 className={styles.h1Outline}>01</h1>
+              <p>
+                Kids have the least amount of agency to change their realities.
+              </p>
+            </div>
+            <div className={styles.WhyInnerWrapper}>
+              <h1 className={styles.h1Outline}>02</h1>
+              <p>
+                We want to impact the future through education and we feel that
+                teaching kids the benefits of generosity will be extremely
+                impactful. This is because kids’ brain plasticity makes it
+                easier for them to learn new ways of being better than adults.
+              </p>
+            </div>
+          </div>
       <div className={styles.DonateTextWrapper}>
         <p>Do you want to</p>
         <h1> Do Something? </h1>
