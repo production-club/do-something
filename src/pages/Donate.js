@@ -15,11 +15,9 @@ const Donate = () => {
         />
       </Helmet>
       <div className={styles.iFrameWrapper}>
-          <div className={styles.DonorContent}>
-            <p>
-         Do Something has applied for tax exemption status as a 501(c)(3) to the IRS and we are pending a determination. This donation will be tax deductible as soon as we get approved, you will be notified via email. 
-            </p>
-          </div>
+        <div className={styles.DonorCTA}>
+          <p>Donations will help Do Something buy a selection of presents that are curated around our goals of playful education and growth.</p>
+        </div>
         <iframe
           title="donorbox"
           src="https://donorbox.org/embed/do-something-toy-giveaway"
@@ -37,6 +35,11 @@ const Donate = () => {
             marginBottom: 20
           }}
         ></iframe>
+            <div className={styles.DonorContent}>
+              <p>
+           Do Something has applied for tax exemption status as a 501(c)(3) to the IRS and we are pending a determination. This donation will be tax deductible as soon as we get approved, you will be notified via email. 
+              </p>
+            </div>
       </div>
     </div>
   );
