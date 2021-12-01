@@ -29,9 +29,10 @@ const Home = () => {
           <h2>A gift giveaway for children and families from underserved communities. Presents are curated with playful education and growth in mind.</h2>
           <p>
           
-           <p style={{color:'white', fontWeight:'bold'}}>
-              6pm - 9pm <br/> December 18th, 2021
-             </p>  Chinatown, Los Angles <br /> Location To Be Announced
+             <p style={{color:'white', fontWeight:'bold'}} className={styles.deskp}>
+              6pm - 9pm. December 18th, 2021
+             </p > <p style={{color:'white', fontWeight:'bold'}}className={styles.tabp}>6pm - 9pm <br/> December 18th, 2021</p><p className={styles.deskp}> Chinatown, Los Angeles | Location To Be Announced</p>
+             <p className={styles.tabp}> Chinatown, Los Angeles <br/> Location To Be Announced</p>
           </p>
         </div>
       </div>

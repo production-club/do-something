@@ -29,7 +29,7 @@ const Sidebar = ({ toggle, isOpen }) => {
           <SidebarLink to="/contact" onClick={toggle} className="SidebarLink">
             Contact
           </SidebarLink>
-          <SidebarLink to="/donate" onClick={toggle} className="SidebarLink">
+          <SidebarLink to="/" exact onClick={toggle} className="SidebarLink">
             Home
           </SidebarLink>
         </SidebarMenu>

@@ -30,10 +30,19 @@
 
 }
 
+.borderbox{
+  width:400px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 3vh;
+  border-top: 2px solid rgb(138, 138, 138);
+  border-bottom: 2px solid rgb(138, 138, 138);
+}
 .DonorCTA{
   margin-bottom: 3vh;
   padding:1em;
   width:40vw;
+  font-family: 'Univers';
 }
 
 .DonorContent {
@@ -41,8 +50,22 @@
   margin: auto;
   text-align: center;
 }
+
 .DonorContent p {
   font-family: "Univers";
   margin-bottom: 10vh;
 }
 
+@media screen and (max-width:780px){
+  .DonorCTA{
+    padding: 0;
+    width:70vw;
+    font-size: 2vw;
+  }
+  .DonorContent{
+    width: 70vw;
+    margin-bottom: 0;
+    padding:1em;
+    font-size: 2vw;
+  }
+}
