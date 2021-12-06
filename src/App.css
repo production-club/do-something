@@ -48,9 +48,13 @@ body {
   overflow-y: auto;
 }
 .tyImage{
-  padding:3rem;
+ width:900px;
+ padding:3rem;
+  margin-top: 5vh;
 }
-
+.typhone{
+  display:none;
+}
 .svgDiv{
 background-image: url('./images/dosomething.svg');
 background-repeat: no-repeat;
@@ -136,6 +140,15 @@ height:10vh;
   .DSLogo {
     font-size: 5vw;
   }
+    .tyImage{
+display: none;
+  }
+  .typhone{
+    display: block;
+    padding:3em;
+    margin-top: 5vh;
+  }
+
 }
 
 @media screen and (max-width: 770px) {
@@ -150,6 +163,7 @@ height:10vh;
   .DSLogo {
     display: none;
   }
+
   .SidebarLink {
     font-family: "Univers";
     color: #f86149;
@@ -173,7 +187,12 @@ height:10vh;
     /* width: 40%; */
   }
   .tyImage{
-    padding:0;
+display: none;
+  }
+  .typhone{
+    display: block;
+    padding:1em;
+    margin-top: 4vh;
   }
   .svgDiv{
     width:55vw;
