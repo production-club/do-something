@@ -30,9 +30,9 @@ const Home = () => {
           <p>
           
              <p style={{color:'white', fontWeight:'bold'}} className={styles.deskp}>
-              6pm - 9pm. December 18th, 2021
-             </p > <p style={{color:'white', fontWeight:'bold'}}className={styles.tabp}>6pm - 9pm <br/> December 18th, 2021</p><p className={styles.deskp}> Chinatown, Los Angeles | Location To Be Announced</p>
-             <p className={styles.tabp}> Chinatown, Los Angeles <br/> Location To Be Announced</p>
+              6pm - 9pm. December 18th, 2021.
+             </p > <p style={{color:'white', fontWeight:'bold'}}className={styles.tabp}>6pm - 9pm <br/> December 18th, 2021.</p><p className={styles.deskp}> 1725 Naud st, Los Angeles, CA 90012 | Chinatown DTLA</p>
+             <p className={styles.tabp}> 1725 Naud st, Los Angeles, CA 90012 <br/> Chinatown DTLA</p>
           </p>
         </div>
       </div>
