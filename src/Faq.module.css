@@ -1,0 +1,100 @@
+@font-face {
+  font-family: "Cooper Black Italic";
+  src: url("./fonts/CooperBlackStd-Italic.otf");
+}
+@font-face {
+  font-family: "Cooper Black";
+  src: url("./fonts/CooperBlackStd.otf");
+}
+@font-face {
+  font-family: "Univers";
+  src: url("./fonts/UniversLTStd.otf");
+}
+
+.FaqWrapper {
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: calc(100vh - 34px);
+  height: auto;
+  max-width: 100%;
+  min-width: fit-content;
+  overflow-y: auto;
+}
+
+.FaqWrapper h1 {
+  font-family: 'Cooper Black';
+  font-size: 8vw;
+}
+
+.introFlex{
+  text-align: left;
+  width:100%;
+}
+.introCopyFlex {
+  width: 90%;
+  padding: 1em;
+}
+.introFlex h3 {
+  font-family: 'Cooper Black';
+  font-size: 5vw;
+  margin-bottom: 2vh;
+}
+.introFlex p {
+  margin-bottom: 2vh;
+  font-family: 'Univers';
+}
+.faqCopy{
+  text-align: left;
+  padding:2em;
+}
+.faqCopy h3 {
+  margin-bottom: 1vh;
+  font-family: 'Univers';
+}
+
+.faqCopy p {
+  margin-bottom: 2vh;
+  font-family: 'Univers';
+}
+
+@media screen and (min-width: 1024px){
+  .introFlex{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  padding:1em;
+  }
+  .introFlex img {
+    max-width: 600px;
+  }
+  .introCopyFlex {
+    padding: 1em;
+  }
+  .introCopyFlex h3 {
+    font-size: 3vw;
+  }
+  .introCopyFlex p {
+    width: 90%;
+  }
+  .faqCopy {
+    width:80%;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .faqCopy {
+    width: 70%;
+  }
+  .introCopyFlex {
+    padding: 2em;
+    margin-left: 5vw;
+  }
+  .introFlex img {
+    max-width: 800px;
+  }
+}

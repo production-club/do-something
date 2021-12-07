@@ -8,6 +8,7 @@ import Contact from "./pages/Contact";
 import About from "./pages/About";
 import Sidebar from "./components/Navbar/Sidebar";
 import Thankyou from "./pages/Thankyou";
+import FAQ from './pages/Faq'
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,6 +27,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
         <Route path="/thankyou" element={<Thankyou />} />
+        <Route path="/faq" element={<FAQ />} />
       </Routes>
     </div>
   );

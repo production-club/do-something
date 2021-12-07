@@ -22,7 +22,7 @@ export const NavLink = styled(Link)`
   padding: 0 1rem;
   margin-top: 6rem;
   height: 100%;
-  font-size: 2rem;
+  font-size: 1.6rem;
   cursor: pointer;
 
   &.active {

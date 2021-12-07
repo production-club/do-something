@@ -16,12 +16,13 @@ const Donate = () => {
       </Helmet>
       <div className={styles.iFrameWrapper}>
         <div className={styles.DonorCTA}>
-          <p>Donations will help Do Something buy a selection of presents that are curated around our goals of playful education and growth.</p>
+          <p>Donations will help Do Something buy a selection of presents that are curated around our goals of playful education and growth (microscopes, scooters, footballs, soccer balls, mini pianos, etc). Our goal is to provide toys for 2,300 kids and every $20 you donate helps one child in need. Let’s do this! </p>
         </div>
         <div className={styles.borderbox}>
 
         <iframe
-          title="donorbox"
+
+  title="donorbox"
           src="https://donorbox.org/embed/do-something-toy-giveaway"
           name="donorbox"
           allowpaymentrequest="allowpaymentrequest"
