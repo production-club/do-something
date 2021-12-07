@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.79283ffb.chunk.css",
-    "main.js": "/static/js/main.75f4d267.chunk.js",
-    "main.js.map": "/static/js/main.75f4d267.chunk.js.map",
+    "main.js": "/static/js/main.edfc24d9.chunk.js",
+    "main.js.map": "/static/js/main.edfc24d9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a22c7670.js",
     "runtime-main.js.map": "/static/js/runtime-main.a22c7670.js.map",
     "static/js/2.29e6658d.chunk.js": "/static/js/2.29e6658d.chunk.js",
@@ -16,9 +16,9 @@
     "static/media/Donate.module.css": "/static/media/DoSomething_DonatePage_Graphic_1920.65cf00a5.svg",
     "static/media/FAQ-presentgraphic.86583a29.svg": "/static/media/FAQ-presentgraphic.86583a29.svg",
     "static/media/About.module.css": "/static/media/present_top.f638170f.svg",
-    "static/media/PresentDudePurp-01.210c135b.svg": "/static/media/PresentDudePurp-01.210c135b.svg",
-    "static/media/PresentDudePurp-02.207b4681.svg": "/static/media/PresentDudePurp-02.207b4681.svg",
-    "static/media/PresentDudePurp-03.716dcdd5.svg": "/static/media/PresentDudePurp-03.716dcdd5.svg",
+    "static/media/PresentDudePurp-01.17408009.svg": "/static/media/PresentDudePurp-01.17408009.svg",
+    "static/media/PresentDudePurp-02.9be42552.svg": "/static/media/PresentDudePurp-02.9be42552.svg",
+    "static/media/PresentDudePurp-03.7a1d899d.svg": "/static/media/PresentDudePurp-03.7a1d899d.svg",
     "static/media/Contact.module.css": "/static/media/PresentDudeWide-960.09cea073.svg",
     "static/media/ThankYouPhone.4152c1bb.svg": "/static/media/ThankYouPhone.4152c1bb.svg",
     "static/media/ToyDrive01.aec8af08.jpg": "/static/media/ToyDrive01.aec8af08.jpg",
@@ -29,6 +29,6 @@
     "static/js/runtime-main.a22c7670.js",
     "static/js/2.29e6658d.chunk.js",
     "static/css/main.79283ffb.chunk.css",
-    "static/js/main.75f4d267.chunk.js"
+    "static/js/main.edfc24d9.chunk.js"
   ]
 }
