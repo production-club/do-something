@@ -43,7 +43,7 @@ const About = () => {
               The Toy Giveaway was one way we saw we could help by making the
               holidays a little easier for those who wanted to give gifts to
               their kids but were unable to. It was successful and we gave
-              around 4000 presents to 700 families.
+              around 4,000 presents to 1,000 families.
             </p>
           </div>
           <div className={styles.DesktopPics}>
@@ -64,8 +64,8 @@ const About = () => {
           <p>
             The Toy Giveaway was one way we saw we could help by making the
             holidays a little easier for those who wanted to give gifts to their
-            kids but were unable to. It was successful and we gave around 4000
-            presents to 700 families.
+            kids but were unable to. It was successful and we gave around 4,000
+            presents to 1,000 families.
           </p>
           <img src={img03} alt="toy drive 2020" />
         </div>
