@@ -28,12 +28,12 @@ const Donate = () => {
           allowpaymentrequest="allowpaymentrequest"
           seamless="seamless"
           frameborder="0"
-          scrolling="yes"
+          scrolling="no"
           style={{
             maxWidth: 900,
             minWidth: 320,
             maxHeight: "none!important",
-            minHeight: 540,
+            minHeight: 1200,
           }}
           ></iframe>
           </div>

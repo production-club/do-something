@@ -56,7 +56,7 @@ export const SidebarLink = styled(LinkR)`
 
 export const SidebarMenu = styled.ul`
 /* padding:2em; */
-margin-top: 50vh;
+margin-top: 20vh;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(6, 80px);
