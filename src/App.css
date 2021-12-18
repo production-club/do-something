@@ -202,6 +202,13 @@ display: none;
 }
 @media screen and (min-width:650px){
     .SidebarLink{
-        font-size: 1.5rem;
+        font-size: 2.5rem;
     margin-bottom:-0.8em;}
 }
+@media screen and (max-height:350px){
+    .SidebarLink{
+        font-size: 1em;
+        margin-bottom: 0em;
+    }
+}
+

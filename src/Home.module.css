@@ -208,22 +208,12 @@
   font-size: 1rem;
 }
 
-/* @media only screen 
-and (max-width : 900px) 
-and (max-height : 1440px) {
-  .tabletpres{
-    display: none;
-  }
-  .desktoppres{
-    display: block;
-  }
-} */
-
 @media screen and (max-width: 1024px) {
 
   .tabletpres{
     display: block;
     width:100%;
+    margin-top: 2em;
   }
   .tabp{
     display: block;
@@ -393,4 +383,9 @@ and (max-height : 1440px) {
     width: 100%;
     justify-content: space-between;
   }
+}
+@media screen and (max-height:770px){
+    .PresentTextWrapper{
+        margin-top: 40vh;
+    }
 }

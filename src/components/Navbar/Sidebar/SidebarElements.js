@@ -65,7 +65,10 @@ margin-top: 23vh;
   @media screen and (max-width: 480px) {
     grid-template-rows: repeat(6, 60px);
   }
-  @media screen and (min-width:660px){
+  @media screen and (min-width:560px){
+  grid-template-rows:repeat(6,80px);
+  }
+  @media screen and (max-height:350px){
   grid-template-rows:repeat(6,40px);
   }
 `;
