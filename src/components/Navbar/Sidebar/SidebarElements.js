@@ -56,7 +56,7 @@ export const SidebarLink = styled(LinkR)`
 
 export const SidebarMenu = styled.ul`
 /* padding:2em; */
-margin-top: 20vh;
+margin-top: 23vh;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(6, 80px);
@@ -64,5 +64,8 @@ margin-top: 20vh;
 
   @media screen and (max-width: 480px) {
     grid-template-rows: repeat(6, 60px);
+  }
+  @media screen and (min-width:660px){
+  grid-template-rows:repeat(6,40px);
   }
 `;
