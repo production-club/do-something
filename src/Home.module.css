@@ -384,7 +384,7 @@
     justify-content: space-between;
   }
 }
-@media screen and (max-height:770px){
+@media screen and (max-height:770px) and (max-width:1024px){
     .PresentTextWrapper{
         margin-top: 40vh;
     }
