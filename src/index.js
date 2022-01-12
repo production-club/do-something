@@ -6,13 +6,17 @@ import reportWebVitals from "./reportWebVitals";
 import { HashRouter } from "react-router-dom";
 import Footer from "./components/Footer";
 import ScrollToTop from "./ScrollToTop";
+import SimpleReactLightbox from 'simple-react-lightbox'
 
 ReactDOM.render(
   <React.StrictMode>
     <HashRouter>
+      <SimpleReactLightbox>
+
       <ScrollToTop />
       <App />
       <Footer />
+      </SimpleReactLightbox>
     </HashRouter>
   </React.StrictMode>,
   document.getElementById("root")

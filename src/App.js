@@ -11,6 +11,7 @@ import Thankyou from "./pages/Thankyou";
 import FAQ from './pages/Faq';
 import FAQEs from './pages/Faq_es'
 import FAQCh from './pages/Faq_ch'
+import Gallery from './pages/Gallery'
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,6 +30,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
         <Route path="/thankyou" element={<Thankyou />} />
+        <Route path="/gallery" element={<Gallery/>} />
         <Route path="/faq" element={<FAQ />} />
         <Route path="/faq-es" element={<FAQEs />} />
         <Route path="/faq-ch" element={<FAQCh />} />

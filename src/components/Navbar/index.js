@@ -18,7 +18,10 @@ const Navbar = ({ toggle }) => {
             <NavLink to="/donate" className="NavLink">
               Donate
             </NavLink>
-            <NavLink to="/contact" className="NavLink">
+                     <NavLink to="/gallery" className="NavLink">
+              Gallery
+            </NavLink>
+            {/* <NavLink to="/contact" className="NavLink">
               Contact
             </NavLink>
             <NavLink to= "/faq" className="NavLink">
@@ -29,7 +32,7 @@ const Navbar = ({ toggle }) => {
             </NavLink>
               <NavLink to= "/faq-ch" className="NavLink">
               问答 <span style={{fontSize:"x-small", marginTop:'1.25vh', marginLeft:'1px'}}></span>
-            </NavLink>
+            </NavLink> */}
            <NavLink to="/" exact className="NavLink">
               Home
             </NavLink>
