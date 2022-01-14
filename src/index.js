@@ -7,8 +7,12 @@ import { HashRouter } from "react-router-dom";
 import Footer from "./components/Footer";
 import ScrollToTop from "./ScrollToTop";
 import SimpleReactLightbox from 'simple-react-lightbox'
+import Amplify from 'aws-amplify'
+import config from './aws-exports'
+Amplify.configure(config)
 
 ReactDOM.render(
+
   <React.StrictMode>
     <HashRouter>
       <SimpleReactLightbox>

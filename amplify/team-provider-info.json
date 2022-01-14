@@ -1,0 +1,21 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-toydrive-dev-133655-authRole",
+      "UnauthRoleArn": "arn:aws:iam::176621113935:role/amplify-toydrive-dev-133655-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::176621113935:role/amplify-toydrive-dev-133655-authRole",
+      "Region": "us-west-1",
+      "DeploymentBucketName": "amplify-toydrive-dev-133655-deployment",
+      "UnauthRoleName": "amplify-toydrive-dev-133655-unauthRole",
+      "StackName": "amplify-toydrive-dev-133655",
+      "StackId": "arn:aws:cloudformation:us-west-1:176621113935:stack/amplify-toydrive-dev-133655/8df2f9e0-74b0-11ec-96f5-06bd4da95cc5",
+      "AmplifyAppId": "d12h8ljrhgmhsy"
+    },
+    "categories": {
+      "auth": {
+        "toydriveb00d64cb": {},
+        "true": {}
+      }
+    }
+  }
+}

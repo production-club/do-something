@@ -1,0 +1,17 @@
+{
+  "resourceName": "toydrivegallerys3",
+  "policyUUID": "04a3fd57",
+  "bucketName": "toydrivea7b76144b859406b9de6f579699fd99d",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "CREATE_AND_UPDATE",
+    "READ"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}

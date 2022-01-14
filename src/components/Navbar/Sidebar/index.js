@@ -8,7 +8,7 @@ import {
   SidebarMenu,
 } from "./SidebarElements";
 
-import esflag from "../../../images/mexican-flag.svg"
+// import esflag from "../../../images/mexican-flag.svg"
 
 const Sidebar = ({ toggle, isOpen }) => {
   return (

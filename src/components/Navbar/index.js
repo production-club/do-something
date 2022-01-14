@@ -1,6 +1,6 @@
 import React from "react";
 import { Nav, NavLink, Bars, NavMenu } from "./NavbarElements";
-import esflag from '../../images/mexican-flag.svg'
+// import esflag from '../../images/mexican-flag.svg'
 const Navbar = ({ toggle }) => {
   return (
     <>
