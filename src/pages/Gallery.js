@@ -1,5 +1,4 @@
-import React, {useState, useEffect} from 'react';
-import { Storage } from 'aws-amplify' 
+import React from 'react';
 import styles from '../Gallery.module.css'
 import SimpleReactLightbox, {SRLWrapper} from 'simple-react-lightbox'
 import {Helmet } from "react-helmet"

@@ -7,9 +7,19 @@ import { HashRouter } from "react-router-dom";
 import Footer from "./components/Footer";
 import ScrollToTop from "./ScrollToTop";
 import SimpleReactLightbox from 'simple-react-lightbox'
+
 import Amplify from 'aws-amplify'
 import config from './aws-exports'
 Amplify.configure(config)
+Amplify.configure({
+    Storage:{
+        AWS3:{
+            bucket:'toydrivea7b76144b859406b9de6f579699fd99d133655-dev',
+            region:'us-west-1'
+
+        }
+    }
+})
 
 ReactDOM.render(
 
