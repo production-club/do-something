@@ -81,7 +81,13 @@ text-align: center;
     max-width: 700px;
 }
 
-.fourPresents{
+.fourPresentsMobile{
+    width:50%;
+    max-width:320px;
+    padding: 1.2em 0;
+}
+.fourPresentsHome{
+    display:none;
     width:50%;
     max-width:320px;
     padding: 1.2em 0;
@@ -121,6 +127,7 @@ text-align: center;
   background-color:rgba(167,129,242,255);
   border-radius:2px;
   padding: .5rem 2rem;
+  margin-top: .5em;
   max-width: 600px;
 }
 .donateBtn:hover {
@@ -128,4 +135,46 @@ text-align: center;
   color: black;
   transition: ease-in-out 0.2s;
 }
+.contactCopy{
+    z-index: 2;
+}
+
+/* media queries */
+
+/*desktop*/
+
+@media screen and (min-width:800px){
+.sec1{
+    flex-direction: row;
+    padding:5em 0;
+    justify-content: space-evenly;
+}
+.copyContainer{
+    width:50%;
+    max-width: 800px;
+}
+.btnFlex{
+    display:flex;
+    margin-top: 3em;
+    width:80%;
+    justify-content:space-evenly; 
+    align-items: flex-start;
+}
+.sec2{
+    padding:5em 0;
+}
+.sec2flex{
+    display: flex;
+}
+.sec3{
+    padding:5em 0
+}
+.fourPresentsHome{
+    display:block;
+}
+.fourPresentsMobile{
+    display:none;
+}
+}
+
 
