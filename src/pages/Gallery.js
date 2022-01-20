@@ -16,8 +16,9 @@ const Gallery = () => {
    <SRLWrapper>
 <div className={styles.row}>
   <div className={styles.column}>
-    <img src='https://toydrivea7b76144b859406b9de6f579699fd99d133655-dev.s3.us-west-1.amazonaws.com/1-_DSF4822.jpg' alt='Toy Giveaway 2021'/>
+      <img src='https://toydrivea7b76144b859406b9de6f579699fd99d133655-dev.s3.us-west-1.amazonaws.com/1-_DSF4822.jpg' alt='Toy Giveaway 2021'/>
     <img src='https://toydrivea7b76144b859406b9de6f579699fd99d133655-dev.s3.us-west-1.amazonaws.com/10-_DSF4852.jpg'alt= 'Toy Giveaway 2021'/>
+       <img src='https://toydrivea7b76144b859406b9de6f579699fd99d133655-dev.s3.us-west-1.amazonaws.com/28-_DSF4926.jpg' alt= 'Toy Giveaway 2021'/>
   <img src='https://toydrivea7b76144b859406b9de6f579699fd99d133655-dev.s3.us-west-1.amazonaws.com/11-_DSF4853.jpg'alt= 'Toy Giveaway 2021'/>
     <img src='https://toydrivea7b76144b859406b9de6f579699fd99d133655-dev.s3.us-west-1.amazonaws.com/12-_DSF4854.jpg' alt= 'Toy Giveaway 2021'/>
     <img src='https://toydrivea7b76144b859406b9de6f579699fd99d133655-dev.s3.us-west-1.amazonaws.com/13-_DSF4855.jpg' alt= 'Toy Giveaway 2021'/>
@@ -29,16 +30,17 @@ const Gallery = () => {
   </div>
    <div className={styles.column}>
     <img src='https://toydrivea7b76144b859406b9de6f579699fd99d133655-dev.s3.us-west-1.amazonaws.com/19-_DSF4884.jpg' alt = 'Toy Giveaway 2021'/>
+    <img src='https://toydrivea7b76144b859406b9de6f579699fd99d133655-dev.s3.us-west-1.amazonaws.com/8-_DSF4843.jpg' alt='Toy Giveaway 2021'/>
     <img src='https://toydrivea7b76144b859406b9de6f579699fd99d133655-dev.s3.us-west-1.amazonaws.com/2-_DSF4827.jpg'alt= 'Toy Giveaway 2021'/>
     <img src='https://toydrivea7b76144b859406b9de6f579699fd99d133655-dev.s3.us-west-1.amazonaws.com/20-_DSF4889.jpg' alt='Toy Giveaway 2021'/>
     <img src='https://toydrivea7b76144b859406b9de6f579699fd99d133655-dev.s3.us-west-1.amazonaws.com/21-_DSF4898.jpg' alt='Toy Giveaway 2021'/>
-    <img src='https://toydrivea7b76144b859406b9de6f579699fd99d133655-dev.s3.us-west-1.amazonaws.com/22-_DSF4901.jpg' alt = 'Toy Giveaway 2021'/>
     <img src='https://toydrivea7b76144b859406b9de6f579699fd99d133655-dev.s3.us-west-1.amazonaws.com/23-_DSF4902.jpg' alt = 'Toy Giveaway 2021'/>
        <img src='https://toydrivea7b76144b859406b9de6f579699fd99d133655-dev.s3.us-west-1.amazonaws.com/24-_DSF4910.jpg' alt= 'Toy Giveaway 2021'/>
        <img src='https://toydrivea7b76144b859406b9de6f579699fd99d133655-dev.s3.us-west-1.amazonaws.com/25-_DSF4917.jpg'alt= 'Toy Giveaway 2021'/>
        <img src='https://toydrivea7b76144b859406b9de6f579699fd99d133655-dev.s3.us-west-1.amazonaws.com/26-_DSF4919.jpg' alt= 'Toy Giveaway 2021'/>
        <img src='https://toydrivea7b76144b859406b9de6f579699fd99d133655-dev.s3.us-west-1.amazonaws.com/27-_DSF4921.jpg' alt= 'Toy Giveaway 2021'/>
-       <img src='https://toydrivea7b76144b859406b9de6f579699fd99d133655-dev.s3.us-west-1.amazonaws.com/28-_DSF4926.jpg' alt= 'Toy Giveaway 2021'/>
+      <img src='https://toydrivea7b76144b859406b9de6f579699fd99d133655-dev.s3.us-west-1.amazonaws.com/9-_DSF4846.jpg' alt= 'Toy Giveaway 2021'/>
+      <img src='https://toydrivea7b76144b859406b9de6f579699fd99d133655-dev.s3.us-west-1.amazonaws.com/40-_0002766.jpg' alt= 'Toy Giveaway 2021'/>
   </div>
   <div className={styles.column}>
     <img src='https://toydrivea7b76144b859406b9de6f579699fd99d133655-dev.s3.us-west-1.amazonaws.com/29-_DSF4929.jpg' alt= 'Toy Giveaway 2021'/>
@@ -54,7 +56,6 @@ const Gallery = () => {
       <img src='https://toydrivea7b76144b859406b9de6f579699fd99d133655-dev.s3.us-west-1.amazonaws.com/38-_0002732.jpg' alt= 'Toy Giveaway 2021'/>
       <img src='https://toydrivea7b76144b859406b9de6f579699fd99d133655-dev.s3.us-west-1.amazonaws.com/39-_0002746.jpg' alt= 'Toy Giveaway 2021'/>
       <img src='https://toydrivea7b76144b859406b9de6f579699fd99d133655-dev.s3.us-west-1.amazonaws.com/4-_DSF4828.jpg' alt= 'Toy Giveaway 2021'/>
-      <img src='https://toydrivea7b76144b859406b9de6f579699fd99d133655-dev.s3.us-west-1.amazonaws.com/40-_0002766.jpg' alt= 'Toy Giveaway 2021'/>
   </div>
   <div className={styles.column}>
     <img src='https://toydrivea7b76144b859406b9de6f579699fd99d133655-dev.s3.us-west-1.amazonaws.com/41-_0002787.jpg' alt='Toy Giveaway 2021'/>
@@ -69,8 +70,6 @@ const Gallery = () => {
     <img src='https://toydrivea7b76144b859406b9de6f579699fd99d133655-dev.s3.us-west-1.amazonaws.com/5-_DSF4830.jpg' alt='Toy Giveaway 2021'/>
     <img src='https://toydrivea7b76144b859406b9de6f579699fd99d133655-dev.s3.us-west-1.amazonaws.com/6-_DSF4839.jpg' alt='Toy Giveaway 2021'/>
     <img src='https://toydrivea7b76144b859406b9de6f579699fd99d133655-dev.s3.us-west-1.amazonaws.com/7-_DSF4840.jpg' alt='Toy Giveaway 2021'/>
-    <img src='https://toydrivea7b76144b859406b9de6f579699fd99d133655-dev.s3.us-west-1.amazonaws.com/8-_DSF4843.jpg' alt='Toy Giveaway 2021'/>
-      <img src='https://toydrivea7b76144b859406b9de6f579699fd99d133655-dev.s3.us-west-1.amazonaws.com/9-_DSF4846.jpg' alt= 'Toy Giveaway 2021'/>
   </div> 
 </div>
    </SRLWrapper>

@@ -65,7 +65,7 @@ const Home = () => {
          <div className={styles.donateFlex}>
              <div className={styles.contactCopy}>
                 <p>Do you want to</p>
-                <h2>stay in contactact?</h2>
+                <h2>stay in contact?</h2>
              </div>
                     <HomeContact />   
             </div> 
