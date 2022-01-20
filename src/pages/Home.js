@@ -32,7 +32,7 @@ const Home = () => {
         </div>
        <div className={styles.sec2}>
            <p>With your help, we were able to make a difference in the lives of children this year. Just take a look!</p>
-           <img src={fourPresentsMobile} className={styles.fourPresentsMobile}/>
+           <img src={fourPresentsMobile} className={styles.fourPresentsMobile} alt='four presents'/>
            <div className={styles.sec2flex}>
            <div className={styles.col}>
            <h1>1,500</h1>
@@ -47,7 +47,7 @@ const Home = () => {
            <p>One of our main goals of the Toy Giveaway was to give toys that focused on child development without promoting gender biases. We were only able to do this because of our donors who contributed over $50,000 to make it happen.</p>
            </div>
            </div>
-           <img src={fourPresentsHome} className={styles.fourPresentsHome}/>
+           <img src={fourPresentsHome} className={styles.fourPresentsHome} alt='four presents'/>
         </div>
         <div className={styles.sec3}>
             <p>Thank you for contributing Do Something in 2021. We hope to see you again in 2022.</p>

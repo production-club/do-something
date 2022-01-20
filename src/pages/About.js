@@ -20,8 +20,7 @@ const About = () => {
         </div>
         <div className={styles.CopyWrapper}>
           <div className={styles.HeadingWrapper}>
-            <h1>Last Year</h1>
-            <h2>(2020)</h2>
+            <h1>In 2020...</h1>
           </div>
           <p className={styles.TabletP}>
             {" "}
@@ -72,8 +71,7 @@ const About = () => {
         <div className={styles.CopyWrapper}>
           <div className={styles.HeadingWrapper}>
             <div className={styles.HeadingFlex}></div>
-            <h1>This Year</h1>
-            <h2>(2021)</h2>
+            <h1>In 2021...</h1>
           </div>
           <div className={styles.alignP}>
 
