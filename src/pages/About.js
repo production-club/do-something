@@ -9,9 +9,8 @@ const About = () => {
   return (
     <div className={styles.AboutWrapper}>
       <div className={styles.InnerWrapper}>
-    
         <Helmet>
-        <title>A Little About Us! </title>
+          <title>A Little About Us! </title>
           <meta name="description" content="About Section of Do Something LA" />
           <meta name="keywords" content="About, Do Something" />
         </Helmet>
@@ -20,7 +19,7 @@ const About = () => {
         </div>
         <div className={styles.CopyWrapper}>
           <div className={styles.HeadingWrapper}>
-            <h1>In 2020...</h1>
+            <h1>In 2021...</h1>
           </div>
           <p className={styles.TabletP}>
             {" "}
@@ -74,16 +73,13 @@ const About = () => {
             <h1>In 2021...</h1>
           </div>
           <div className={styles.alignP}>
-
-          <p>
-            We want to double the amount of families we reach, so we’re starting
-            earlier to source gifts and get the word out about the toy giveaway.
-            To make those things happen we’re asking for donations from the
-            public.
-          </p>
+            <p>
+              We want to double the amount of families we reach, so we’re
+              starting earlier to source gifts and get the word out about the
+              toy giveaway. To make those things happen we’re asking for
+              donations from the public.
+            </p>
           </div>
-       
-           
         </div>
         <div className={styles.RibbonFeetContainer}>
           <div className={styles.RibbonFeet} />
