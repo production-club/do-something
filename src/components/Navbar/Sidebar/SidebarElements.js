@@ -1,4 +1,4 @@
-import styled from "styled-components";
+git import styled from "styled-components";
 import { FaTimes } from "react-icons/fa";
 import { Link as LinkR } from "react-router-dom";
 
